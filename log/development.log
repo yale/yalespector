@@ -1,0 +1,2145 @@
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-02 13:52:29 -0500
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p136/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-02 13:52:31 -0500
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p136/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 18:11:48 -0400
+  Processing by YaleController#intro as HTML
+ERROR: compiling _app_views_yale_intro_html_haml__2237234635587771663_70351065448820_2359078620112727265 RAISED /Users/yale/Sites/home/app/views/yale/intro.html.haml:7: syntax error, unexpected ')'
+));}\n  </h2>\n</hgroup>\n<div id='skills'></div>\n", -2, false);
+ ^
+/Users/yale/Sites/home/app/views/yale/intro.html.haml:7: unknown regexp options - hgrp
+/Users/yale/Sites/home/app/views/yale/intro.html.haml:7: syntax error, unexpected $undefined
+));}\n  </h2>\n</hgroup>\n<div id='skills'></div>\n", -2, false);
+                         ^
+/Users/yale/Sites/home/app/views/yale/intro.html.haml:7: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+));}\n  </h2>\n</hgroup>\n<div id='skills'></div>\n", -2, false);
+                                 ^
+/Users/yale/Sites/home/app/views/yale/intro.html.haml:7: syntax error, unexpected '<'
+));}\n  </h2>\n</hgroup>\n<div id='skills'></div>\n", -2, false);
+                                            ^
+/Users/yale/Sites/home/app/views/yale/intro.html.haml:7: unterminated regexp meets end of file
+Function body:           def _app_views_yale_intro_html_haml__2237234635587771663_70351065448820_2359078620112727265(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "yale/intro";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<hgroup>\n  <h1>#{
+_hamlout.adjust_tabs(2); _hamlout.format_script_false_true_false_true_false_true_false(("Hi. My name is Yale."
+));}</h1>\n  <h2>\n    #{
+_hamlout.adjust_tabs(1); _hamlout.format_script_false_false_false_true_false_true_false(( I f*cking
+));}\n    <span class='accent'>= love</span>\n    #{
+_hamlout.format_script_false_false_false_true_false_true_false(( the Internet.
+));}\n  </h2>\n</hgroup>\n<div id='skills'></div>\n", -2, false);
+::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/template.rb:255:in `module_eval'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/template.rb:255:in `compile'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/template.rb:134:in `block in render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications.rb:54:in `instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/template.rb:127:in `render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:26:in `render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/haml-3.0.25/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:93:in `render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/yale/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.4/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:150:in `process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:435:in `_run__3894191954477866403__process_action__4258198315465463878__callbacks'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:119:in `process'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:41:in `process'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal.rb:178:in `block in action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `block in call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/haml-3.0.25/lib/sass/plugin/rack.rb:41:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:32:in `block in call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:12:in `cache'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:31:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.4/lib/rails/rack/logger.rb:13:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.4/lib/rails/application.rb:168:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.4/lib/rails/application.rb:77:in `method_missing'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.4/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/Users/yale/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/yale/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/yale/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered yale/intro.html.haml within layouts/application (2.6ms)
+Completed   in 8ms
+
+ActionView::Template::Error (/Users/yale/Sites/home/app/views/yale/intro.html.haml:7: syntax error, unexpected ')'
+));}\n  </h2>\n</hgroup>\n<div id='skills'></div>\n", -2, false);
+ ^
+/Users/yale/Sites/home/app/views/yale/intro.html.haml:7: unknown regexp options - hgrp
+/Users/yale/Sites/home/app/views/yale/intro.html.haml:7: syntax error, unexpected $undefined
+));}\n  </h2>\n</hgroup>\n<div id='skills'></div>\n", -2, false);
+                         ^
+/Users/yale/Sites/home/app/views/yale/intro.html.haml:7: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+));}\n  </h2>\n</hgroup>\n<div id='skills'></div>\n", -2, false);
+                                 ^
+/Users/yale/Sites/home/app/views/yale/intro.html.haml:7: syntax error, unexpected '<'
+));}\n  </h2>\n</hgroup>\n<div id='skills'></div>\n", -2, false);
+                                            ^
+/Users/yale/Sites/home/app/views/yale/intro.html.haml:7: unterminated regexp meets end of file):
+    4:     = I f*cking
+    5:     %span.accent = love
+    6:     = the Internet.
+    7: 
+    8: #skills
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 18:15:36 -0400
+  Processing by YaleController#intro as HTML
+Rendered yale/intro.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 18:24:54 -0400
+  Processing by YaleController#intro as HTML
+Rendered yale/intro.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 18:33:19 -0400
+  Processing by YaleController#intro as HTML
+Rendered yale/intro.html.haml within layouts/application (4.3ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 18:47:15 -0400
+  Processing by YaleController#intro as HTML
+Rendered yale/intro.html.haml within layouts/application (3.6ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 18:48:32 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.8ms)
+Rendered layouts/_head.html.haml (15.0ms)
+Rendered layouts/_header.html.haml (1.3ms)
+Rendered layouts/_flashes.html.haml (2.2ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.8ms)
+Rendered yale/intro.html.haml within layouts/application (69.1ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 18:48:33 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/compiled/images/bg.png" for 127.0.0.1 at 2011-03-18 18:48:35 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/bg.png"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:11:16 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (31.0ms)
+Rendered layouts/_head.html.haml (79.3ms)
+Rendered layouts/_header.html.haml (1.0ms)
+Rendered layouts/_flashes.html.haml (2.4ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (42.7ms)
+Rendered yale/intro.html.haml within layouts/application (241.8ms)
+Completed 200 OK in 260ms (Views: 259.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:11:16 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/compiled/images/bg.png" for 127.0.0.1 at 2011-03-18 19:11:19 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/bg.png"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:11:36 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (7.3ms)
+Rendered layouts/_header.html.haml (1.2ms)
+Rendered layouts/_flashes.html.haml (1.9ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (30.2ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:11:37 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/compiled/images/bg.png" for 127.0.0.1 at 2011-03-18 19:11:39 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/bg.png"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:12:22 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.1ms)
+Rendered layouts/_head.html.haml (7.1ms)
+Rendered layouts/_header.html.haml (0.7ms)
+Rendered yale/intro.html.haml within layouts/application (17.2ms)
+Completed   in 23ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h1 and nested within it.):
+    1: %h1 :markdown
+    2:   Yale
+    3:   Spec
+    4:   tor.
+    5:   com!
+  app/views/layouts/_header.html.haml:2
+  app/views/layouts/application.html.haml:9:in `block in _app_views_layouts_application_html_haml__2099093354960562324_70130475926820_3154524515876080348'
+  app/views/layouts/application.html.haml:4:in `_app_views_layouts_application_html_haml__2099093354960562324_70130475926820_3154524515876080348'
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:12:33 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (7.4ms)
+Rendered layouts/_header.html.haml (205.6ms)
+Rendered yale/intro.html.haml within layouts/application (224.5ms)
+Completed   in 231ms
+
+ActionView::Template::Error (Can't run Markdown filter; required 'rdiscount' or 'peg_markdown' or 'maruku' or 'bluecloth', but none were found):
+    1: %h1 
+    2:   :markdown
+    3:     Yale
+    4:     Spec
+    5:     tor.
+  app/views/layouts/_header.html.haml:2
+  app/views/layouts/application.html.haml:9:in `block in _app_views_layouts_application_html_haml__2099093354960562324_70130486897360_3154524515876080348'
+  app/views/layouts/application.html.haml:4:in `_app_views_layouts_application_html_haml__2099093354960562324_70130486897360_3154524515876080348'
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:14:27 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.1ms)
+Rendered layouts/_flashes.html.haml (2.3ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.5ms)
+Rendered yale/intro.html.haml within layouts/application (29.4ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:14:27 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/compiled/images/bg.png" for 127.0.0.1 at 2011-03-18 19:14:28 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/bg.png"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:14:50 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.0ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (6.0ms)
+Rendered yale/intro.html.haml within layouts/application (30.3ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:14:50 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/compiled/images/bg.png" for 127.0.0.1 at 2011-03-18 19:14:52 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/bg.png"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:15:14 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (32.8ms)
+Rendered layouts/_head.html.haml (38.6ms)
+Rendered layouts/_header.html.haml (2.4ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (6.2ms)
+Rendered yale/intro.html.haml within layouts/application (63.2ms)
+Completed 200 OK in 68ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:15:15 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/stylesheets/compiled/images/bg.png" for 127.0.0.1 at 2011-03-18 19:15:15 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/bg.png"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:19:15 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.4ms)
+Rendered layouts/_head.html.haml (7.3ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (31.2ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:19:15 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/compiled/images/bg.png" for 127.0.0.1 at 2011-03-18 19:19:16 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/bg.png"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:25:23 -0400
+  Processing by YaleController#intro as HTML
+Rendered yale/intro.html.haml within layouts/application (1.5ms)
+Completed   in 6ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %dt and nested within it.):
+    10: #skills
+    11:   %dl
+    12:     %dt <
+    13:       %span html5
+    14:       > 
+    15:       %span css3
+    16:       {} and $(
+  app/views/yale/intro.html.haml:13
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:25:40 -0400
+  Processing by YaleController#intro as HTML
+Rendered yale/intro.html.haml within layouts/application (8.8ms)
+Completed   in 14ms
+
+ActionView::Template::Error (Invalid CSS after "#skills ": expected selector, was "{"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:25:53 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.2ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (28.3ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (62.1ms)
+Completed 200 OK in 66ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:25:53 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:27:03 -0400
+  Processing by YaleController#intro as HTML
+Rendered yale/intro.html.haml within layouts/application (8.6ms)
+Completed   in 13ms
+
+ActionView::Template::Error (Invalid CSS after "181px": expected expression (e.g. 1px, bold), was ";"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:27:07 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (7.2ms)
+Rendered layouts/_header.html.haml (28.8ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (63.4ms)
+Completed 200 OK in 67ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:27:07 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:28:59 -0400
+  Processing by YaleController#intro as HTML
+ERROR: compiling _app_views_yale_intro_html_haml___3335295486562597141_70130473957640_3154524515876080348 RAISED /Users/yale/Sites/home/app/views/yale/intro.html.haml:36: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/yale/Sites/home/app/views/yale/intro.html.haml:39: syntax error, unexpected $end, expecting keyword_end
+Function body:           def _app_views_yale_intro_html_haml___3335295486562597141_70130473957640_3154524515876080348(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "yale/intro";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<hgroup>\n  <h1>Hi. My name is Yale.</h1>\n  <h2>\n    I f*cking\n    <br>\n    <span class='accent'>love</span>\n    <br>\n    the Internet.\n  </h2>\n</hgroup>\n<div id='skills'>\n  <dl>\n    <dt>\n      <\n      <span>html5</span>\n      >\n      <span>css3</span>\n      {} and $(\n      <span>jquery</span>\n      )\n    </dt>\n    <dd>\n      /\\/ for kick ass user experience\n    </dd>\n    <dt>\n      <%= ruby on rails %>\n    </dt>\n    <dd>\n      /\\/ for kick ass agile development\n    </dd>\n    <dt>\n      Drupal\n    </dt>\n    <dd>\n      /\\/ for kick ass content management\n    </dd>\n    <dt>\n      <?php ?> and MySQL\n    </dt>\n    <dd>\n      /\\/ because I pretty much have to\n    </dd>\n  </dl>\n</div>\n", 0, false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ content_for :style do;
+::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/template.rb:255:in `module_eval'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/template.rb:255:in `compile'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/template.rb:134:in `block in render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications.rb:54:in `instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/template.rb:127:in `render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:26:in `render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/haml-3.0.25/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:93:in `render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/yale/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.4/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:150:in `process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:435:in `_run__3168253891486955941__process_action__4166557544519419601__callbacks'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:119:in `process'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:41:in `process'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_controller/metal.rb:178:in `block in action'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `block in call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/haml-3.0.25/lib/sass/plugin/rack.rb:41:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:32:in `block in call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:12:in `cache'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:31:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.4/lib/rails/rack/logger.rb:13:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.4/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.4/lib/rails/application.rb:168:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.4/lib/rails/application.rb:77:in `method_missing'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.4/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/Users/yale/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/yale/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/yale/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered yale/intro.html.haml within layouts/application (5.3ms)
+Completed   in 9ms
+
+ActionView::Template::Error (/Users/yale/Sites/home/app/views/yale/intro.html.haml:36: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/yale/Sites/home/app/views/yale/intro.html.haml:39: syntax error, unexpected $end, expecting keyword_end):
+    33:       \/\/ because I pretty much have to
+    34:       
+    35: - content_for :style do
+    36: 
+    37:       
+    38:       
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:29:19 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (8.4ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.8ms)
+Rendered yale/intro.html.haml within layouts/application (37.2ms)
+Completed 200 OK in 41ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:29:19 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:29:45 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (30.8ms)
+Rendered layouts/_head.html.haml (36.4ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.6ms)
+Rendered yale/intro.html.haml within layouts/application (65.9ms)
+Completed 200 OK in 70ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:29:45 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:30:29 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.5ms)
+Rendered layouts/_head.html.haml (10.2ms)
+Rendered layouts/_header.html.haml (1.8ms)
+Rendered layouts/_flashes.html.haml (2.5ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.7ms)
+Rendered yale/intro.html.haml within layouts/application (69.4ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:30:29 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:30:40 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.3ms)
+Rendered layouts/_head.html.haml (11.4ms)
+Rendered layouts/_header.html.haml (2.2ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.8ms)
+Rendered yale/intro.html.haml within layouts/application (45.5ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:30:40 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:31:02 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (30.3ms)
+Rendered layouts/_head.html.haml (36.0ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (65.7ms)
+Completed 200 OK in 70ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:31:02 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:32:03 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.4ms)
+Rendered layouts/_header.html.haml (1.7ms)
+Rendered layouts/_flashes.html.haml (2.2ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (65.5ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:32:03 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:32:08 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (7.7ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (37.1ms)
+Completed 200 OK in 41ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:32:09 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:33:00 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (28.6ms)
+Rendered layouts/_head.html.haml (34.0ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (63.3ms)
+Completed 200 OK in 67ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:33:00 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:35:02 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.1ms)
+Rendered layouts/_head.html.haml (7.3ms)
+Rendered layouts/_header.html.haml (1.7ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.1ms)
+Rendered yale/intro.html.haml within layouts/application (63.6ms)
+Completed 200 OK in 68ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:35:02 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:35:09 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.1ms)
+Rendered layouts/_head.html.haml (7.2ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.4ms)
+Rendered yale/intro.html.haml within layouts/application (37.2ms)
+Completed 200 OK in 41ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:35:09 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:35:35 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.4ms)
+Rendered layouts/_head.html.haml (34.4ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.9ms)
+Rendered yale/intro.html.haml within layouts/application (64.3ms)
+Completed 200 OK in 69ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:35:35 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:36:40 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (7.7ms)
+Rendered layouts/_header.html.haml (1.9ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.5ms)
+Rendered yale/intro.html.haml within layouts/application (70.1ms)
+Completed 200 OK in 74ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:36:40 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:39:00 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.4ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (31.8ms)
+Rendered yale/intro.html.haml within layouts/application (63.5ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:39:00 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:39:01 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (34.3ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (1.9ms)
+Rendered layouts/_footer.html.haml (1.3ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (63.7ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:39:01 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:39:11 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (1.9ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (37.1ms)
+Completed 200 OK in 41ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:39:11 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:39:51 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (8.1ms)
+Rendered layouts/_header.html.haml (1.8ms)
+Rendered layouts/_flashes.html.haml (28.4ms)
+Rendered layouts/_footer.html.haml (1.6ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (66.9ms)
+Completed 200 OK in 71ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:39:52 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:40:23 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.4ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (1.9ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (65.1ms)
+Completed 200 OK in 69ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:40:23 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:40:51 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (1.9ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (38.1ms)
+Completed 200 OK in 42ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:40:51 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:41:18 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.4ms)
+Rendered layouts/_head.html.haml (34.2ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (1.9ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.1ms)
+Rendered yale/intro.html.haml within layouts/application (64.8ms)
+Completed 200 OK in 69ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:41:18 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:41:48 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.7ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (67.1ms)
+Completed 200 OK in 71ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:41:48 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:44:22 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.5ms)
+Rendered yale/intro.html.haml within layouts/application (39.2ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:44:22 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:45:00 -0400
+  Processing by YaleController#intro as HTML
+Rendered yale/intro.html.haml within layouts/application (2.1ms)
+Completed   in 7ms
+
+ActionView::Template::Error (Invalid tag: "%>".):
+    22:     %dt
+    23:       <%= 
+    24:       %span ruby on rails
+    25:       %>
+    26:     %dd  
+    27:       #{"//"} for kick ass agile development
+    28:     %dt  
+  app/views/yale/intro.html.haml:25
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:45:28 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.3ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (39.6ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:45:28 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:46:45 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.4ms)
+Rendered layouts/_head.html.haml (35.1ms)
+Rendered layouts/_header.html.haml (1.7ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.0ms)
+Rendered yale/intro.html.haml within layouts/application (68.4ms)
+Completed 200 OK in 72ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:46:45 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:47:04 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.4ms)
+Rendered layouts/_head.html.haml (7.9ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.6ms)
+Rendered yale/intro.html.haml within layouts/application (42.0ms)
+Completed 200 OK in 73ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:47:04 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:47:19 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.7ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.5ms)
+Rendered yale/intro.html.haml within layouts/application (68.0ms)
+Completed 200 OK in 73ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:47:20 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:48:03 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.6ms)
+Rendered yale/intro.html.haml within layouts/application (68.6ms)
+Completed 200 OK in 73ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:48:03 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:48:18 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.0ms)
+Rendered layouts/_head.html.haml (8.4ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (6.7ms)
+Rendered yale/intro.html.haml within layouts/application (43.1ms)
+Completed 200 OK in 75ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:48:18 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:48:44 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (29.2ms)
+Rendered layouts/_head.html.haml (35.1ms)
+Rendered layouts/_header.html.haml (1.7ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (1.6ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (69.3ms)
+Completed 200 OK in 74ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:48:45 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:49:29 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.5ms)
+Rendered layouts/_head.html.haml (7.8ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (41.4ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:49:30 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:49:58 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (8.9ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (28.1ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (68.0ms)
+Completed 200 OK in 72ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:49:58 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:50:13 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.3ms)
+Rendered layouts/_head.html.haml (9.7ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.3ms)
+Rendered layouts/_footer.html.haml (1.8ms)
+Rendered layouts/_javascripts.html.haml (9.4ms)
+Rendered yale/intro.html.haml within layouts/application (95.3ms)
+Completed 200 OK in 109ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:50:13 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:50:18 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (8.2ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (3.7ms)
+Rendered layouts/_footer.html.haml (1.6ms)
+Rendered layouts/_javascripts.html.haml (41.8ms)
+Rendered yale/intro.html.haml within layouts/application (81.6ms)
+Completed 200 OK in 86ms (Views: 85.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:50:19 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:50:32 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.4ms)
+Rendered layouts/_head.html.haml (8.2ms)
+Rendered layouts/_header.html.haml (1.7ms)
+Rendered layouts/_flashes.html.haml (2.5ms)
+Rendered layouts/_footer.html.haml (1.7ms)
+Rendered layouts/_javascripts.html.haml (6.4ms)
+Rendered yale/intro.html.haml within layouts/application (85.4ms)
+Completed 200 OK in 91ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:50:32 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:50:42 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.4ms)
+Rendered layouts/_head.html.haml (8.9ms)
+Rendered layouts/_header.html.haml (1.8ms)
+Rendered layouts/_flashes.html.haml (2.8ms)
+Rendered layouts/_footer.html.haml (2.4ms)
+Rendered layouts/_javascripts.html.haml (10.1ms)
+Rendered yale/intro.html.haml within layouts/application (51.5ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:50:42 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:51:30 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (28.2ms)
+Rendered layouts/_head.html.haml (33.6ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.1ms)
+Rendered yale/intro.html.haml within layouts/application (71.2ms)
+Completed 200 OK in 75ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:51:30 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:52:03 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (7.6ms)
+Rendered layouts/_header.html.haml (1.7ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (67.4ms)
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:52:04 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:52:47 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.6ms)
+Rendered layouts/_head.html.haml (7.9ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.1ms)
+Rendered yale/intro.html.haml within layouts/application (42.0ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:52:48 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:53:05 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (28.3ms)
+Rendered layouts/_head.html.haml (33.7ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.1ms)
+Rendered yale/intro.html.haml within layouts/application (66.9ms)
+Completed 200 OK in 71ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:53:06 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:54:13 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.1ms)
+Rendered layouts/_head.html.haml (7.2ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (67.3ms)
+Completed 200 OK in 71ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:54:13 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:54:30 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (8.2ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (1.9ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (43.2ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:54:30 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:55:46 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (28.3ms)
+Rendered layouts/_head.html.haml (33.8ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.1ms)
+Rendered yale/intro.html.haml within layouts/application (67.3ms)
+Completed 200 OK in 71ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:55:46 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:56:06 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.4ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.4ms)
+Rendered yale/intro.html.haml within layouts/application (66.8ms)
+Completed 200 OK in 71ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:56:06 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:56:31 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.4ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.1ms)
+Rendered yale/intro.html.haml within layouts/application (40.1ms)
+Completed 200 OK in 44ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:56:31 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:57:32 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (33.4ms)
+Rendered layouts/_header.html.haml (1.7ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.3ms)
+Rendered layouts/_javascripts.html.haml (5.0ms)
+Rendered yale/intro.html.haml within layouts/application (66.7ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:57:32 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:59:09 -0400
+  Processing by YaleController#intro as HTML
+Rendered yale/intro.html.haml within layouts/application (37.8ms)
+Completed   in 42ms
+
+ActionView::Template::Error (Invalid CSS after "": expected selector, was "%h2"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:59:20 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.4ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (1.9ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.1ms)
+Rendered yale/intro.html.haml within layouts/application (67.3ms)
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:59:20 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 19:59:30 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.7ms)
+Rendered yale/intro.html.haml within layouts/application (42.2ms)
+Completed 200 OK in 46ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 19:59:30 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:00:19 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.8ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.0ms)
+Rendered yale/intro.html.haml within layouts/application (68.6ms)
+Completed 200 OK in 73ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:00:20 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:00:26 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (1.9ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (42.4ms)
+Completed 200 OK in 46ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:00:27 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:00:36 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (34.6ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.1ms)
+Rendered yale/intro.html.haml within layouts/application (69.3ms)
+Completed 200 OK in 73ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:00:36 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:00:49 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (42.1ms)
+Completed 200 OK in 46ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:00:49 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:01:27 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (34.3ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.0ms)
+Rendered yale/intro.html.haml within layouts/application (69.1ms)
+Completed 200 OK in 73ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:01:27 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:01:40 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (8.0ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (42.9ms)
+Completed 200 OK in 47ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:01:42 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:01:55 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (34.5ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (2.2ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (69.3ms)
+Completed 200 OK in 73ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:01:55 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:02:20 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (8.1ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (43.0ms)
+Completed 200 OK in 47ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:02:20 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:03:49 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (34.9ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (70.0ms)
+Completed 200 OK in 75ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:03:49 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:04:36 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.6ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (43.3ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:04:36 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:10:10 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.4ms)
+Rendered layouts/_head.html.haml (8.4ms)
+Rendered layouts/_header.html.haml (2.2ms)
+Rendered layouts/_flashes.html.haml (2.3ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.1ms)
+Rendered yale/intro.html.haml within layouts/application (70.7ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:10:10 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:10:30 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (0.9ms)
+Rendered yale/intro.html.haml within layouts/application (30.0ms)
+Completed   in 35ms
+
+ActionView::Template::Error (Self-closing tags can't have content.):
+    1: %h1
+    2:   = link_to root_url do
+    3:     Yale
+    4:     %br/>
+    5:     Spec
+    6:     %br/>
+    7:     tor.
+  app/views/layouts/_header.html.haml:4
+  app/views/layouts/application.html.haml:9:in `block in _app_views_layouts_application_html_haml__2099093354960562324_70130487351660_3154524515876080348'
+  app/views/layouts/application.html.haml:4:in `_app_views_layouts_application_html_haml__2099093354960562324_70130487351660_3154524515876080348'
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:10:39 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.2ms)
+Rendered layouts/_head.html.haml (7.3ms)
+Rendered layouts/_header.html.haml (2.3ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (28.4ms)
+Rendered layouts/_javascripts.html.haml (5.6ms)
+Rendered yale/intro.html.haml within layouts/application (70.8ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:10:39 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:13:32 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.3ms)
+Rendered layouts/_head.html.haml (10.2ms)
+Rendered layouts/_header.html.haml (2.2ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (1.3ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered yale/intro.html.haml within layouts/application (74.9ms)
+Completed 200 OK in 79ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:13:33 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 20:27:36 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.1ms)
+Rendered layouts/_head.html.haml (7.3ms)
+Rendered layouts/_header.html.haml (2.1ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (31.5ms)
+Rendered yale/intro.html.haml within layouts/application (69.0ms)
+Completed 200 OK in 73ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-18 20:27:37 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-19 15:32:27 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.2ms)
+Rendered layouts/_head.html.haml (9.6ms)
+Rendered layouts/_header.html.haml (2.4ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (6.1ms)
+Rendered yale/intro.html.haml within layouts/application (137.3ms)
+Completed 200 OK in 142ms (Views: 141.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-19 15:32:28 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-19 15:41:13 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (9.4ms)
+Rendered layouts/_head.html.haml (18.2ms)
+Rendered layouts/_header.html.haml (2.4ms)
+Rendered layouts/_flashes.html.haml (2.5ms)
+Rendered layouts/_footer.html.haml (12.6ms)
+Rendered layouts/_javascripts.html.haml (80.7ms)
+Rendered yale/intro.html.haml within layouts/application (157.8ms)
+Completed 200 OK in 165ms (Views: 164.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-19 15:41:14 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-19 15:41:55 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (5.3ms)
+Rendered layouts/_head.html.haml (48.6ms)
+Rendered layouts/_header.html.haml (4.3ms)
+Rendered layouts/_flashes.html.haml (2.5ms)
+Rendered layouts/_footer.html.haml (2.4ms)
+Rendered layouts/_javascripts.html.haml (12.5ms)
+Rendered yale/intro.html.haml within layouts/application (120.9ms)
+Completed 200 OK in 134ms (Views: 133.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-19 15:41:56 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-19 15:42:03 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.8ms)
+Rendered layouts/_head.html.haml (9.7ms)
+Rendered layouts/_header.html.haml (2.9ms)
+Rendered layouts/_flashes.html.haml (2.3ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (6.6ms)
+Rendered yale/intro.html.haml within layouts/application (94.9ms)
+Completed 200 OK in 99ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-19 15:42:04 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-19 15:42:43 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (4.2ms)
+Rendered layouts/_head.html.haml (9.8ms)
+Rendered layouts/_header.html.haml (2.4ms)
+Rendered layouts/_flashes.html.haml (3.8ms)
+Rendered layouts/_footer.html.haml (1.6ms)
+Rendered layouts/_javascripts.html.haml (39.7ms)
+Rendered yale/intro.html.haml within layouts/application (89.5ms)
+Completed 200 OK in 95ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-19 15:42:43 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-21 02:01:12 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.3ms)
+Rendered layouts/_head.html.haml (56.4ms)
+Rendered layouts/_header.html.haml (2.5ms)
+Rendered layouts/_flashes.html.haml (2.8ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.7ms)
+Rendered yale/intro.html.haml within layouts/application (193.9ms)
+Completed 200 OK in 226ms (Views: 225.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-21 02:01:13 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-21 10:12:34 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.1ms)
+Rendered layouts/_head.html.haml (13.7ms)
+Rendered layouts/_header.html.haml (3.6ms)
+Rendered layouts/_flashes.html.haml (2.2ms)
+Rendered layouts/_footer.html.haml (1.8ms)
+Rendered layouts/_javascripts.html.haml (11.6ms)
+Rendered yale/intro.html.haml within layouts/application (100.3ms)
+Completed 200 OK in 105ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-21 10:12:35 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (10.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-21 23:59:48 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.4ms)
+Rendered layouts/_head.html.haml (14.0ms)
+Rendered layouts/_header.html.haml (3.2ms)
+Rendered layouts/_flashes.html.haml (2.8ms)
+Rendered layouts/_footer.html.haml (2.2ms)
+Rendered layouts/_javascripts.html.haml (6.4ms)
+Rendered yale/intro.html.haml within layouts/application (175.7ms)
+Completed 200 OK in 208ms (Views: 207.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-21 23:59:50 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-22 17:31:25 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.3ms)
+Rendered layouts/_head.html.haml (14.2ms)
+Rendered layouts/_header.html.haml (3.2ms)
+Rendered layouts/_flashes.html.haml (2.4ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.8ms)
+Rendered yale/intro.html.haml within layouts/application (129.5ms)
+Completed 200 OK in 158ms (Views: 157.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-22 17:31:27 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/home/dashboard" for 127.0.0.1 at 2011-03-22 17:54:09 -0400
+
+ActionController::RoutingError (No route matches "/home/dashboard"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/dashboard" for 127.0.0.1 at 2011-03-22 17:54:13 -0400
+
+ActionController::RoutingError (No route matches "/home/dashboard"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-22 17:54:22 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.5ms)
+Rendered layouts/_head.html.haml (13.1ms)
+Rendered layouts/_header.html.haml (2.4ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered layouts/_javascripts.html.haml (5.7ms)
+Rendered yale/intro.html.haml within layouts/application (106.2ms)
+Completed 200 OK in 172ms (Views: 171.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-22 17:54:22 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
