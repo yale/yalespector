@@ -1,5 +1,5 @@
 %hgroup
-  %h1 Hi, I'm Yale.
+  %h1 Hi, I'm Yale Spector.
   %h2
     I f*cking
     %br/
@@ -38,7 +38,26 @@
       %span MySQL
     %dd  
       #{"//"} because I pretty much have to
-      
+
+#contact
+  %p
+    %strong find me
+    on
+    = link_to "facebook", "http://facebook.com/yale.spector", :class => :facebook
+    %br
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    = link_to "http://linkedin.com/in/yalespector", :class => :linkedin do
+      %span.linked Linked
+      %span.in> in
+    %br
+    %strong call me
+    on
+    = link_to "skype", "skype:thebrokenlight?call", :class => :skype
+    %br
+    %strong mail me
+    at
+    = mail_to "yale.spector@gmail.com"
+
 - content_for :style do
   :sass
     h2
@@ -48,6 +67,7 @@
       height: 181px
       margin-top: -171px
       margin-left: 290px
+      margin-bottom: 30px
       padding-left: 70px
       background: url(../../images/left-bracket.png) left no-repeat
       dl

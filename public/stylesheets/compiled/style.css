@@ -295,27 +295,29 @@ h1, h2, h3, h4, h5, h6 {
 /* line 22, ../../../app/stylesheets/partials/_page.scss */
 a {
   text-decoration: none;
+  color: #bed190;
 }
-/* line 24, ../../../app/stylesheets/partials/_page.scss */
+/* line 25, ../../../app/stylesheets/partials/_page.scss */
 a:active, a:visited {
   color: #bed190;
 }
-/* line 28, ../../../app/stylesheets/partials/_page.scss */
+/* line 29, ../../../app/stylesheets/partials/_page.scss */
 a:hover {
   color: white;
 }
 
-/* line 33, ../../../app/stylesheets/partials/_page.scss */
+/* line 34, ../../../app/stylesheets/partials/_page.scss */
 strong, th {
   font-weight: bold;
+  color: white;
 }
 
-/* line 37, ../../../app/stylesheets/partials/_page.scss */
+/* line 39, ../../../app/stylesheets/partials/_page.scss */
 small {
   font-size: 79%;
 }
 
-/* line 46, ../../../app/stylesheets/partials/_page.scss */
+/* line 48, ../../../app/stylesheets/partials/_page.scss */
 input:invalid, textarea:invalid {
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
@@ -329,46 +331,91 @@ input:invalid, textarea:invalid {
   box-shadow: red 0 0 5px 0;
 }
 
-/* line 51, ../../../app/stylesheets/partials/_page.scss */
+/* line 53, ../../../app/stylesheets/partials/_page.scss */
 .no-boxshadow input:invalid,
 .no-boxshadow textarea:invalid {
   background-color: #f0dddd;
 }
 
-/* line 58, ../../../app/stylesheets/partials/_page.scss */
+/* line 60, ../../../app/stylesheets/partials/_page.scss */
 body {
   background: #494949 url(../../images/bg.png);
 }
 
-/* line 62, ../../../app/stylesheets/partials/_page.scss */
+/* line 64, ../../../app/stylesheets/partials/_page.scss */
 #container {
   width: 80%;
   padding-top: 5em;
   margin: 0 auto;
 }
 
-/* line 68, ../../../app/stylesheets/partials/_page.scss */
+/* line 70, ../../../app/stylesheets/partials/_page.scss */
 header {
   width: 15%;
   float: left;
 }
 
-/* line 73, ../../../app/stylesheets/partials/_page.scss */
+/* line 75, ../../../app/stylesheets/partials/_page.scss */
 #main {
   margin-left: 15%;
 }
-/* line 75, ../../../app/stylesheets/partials/_page.scss */
+/* line 77, ../../../app/stylesheets/partials/_page.scss */
 #main h1 {
   font-size: 24px;
 }
-/* line 78, ../../../app/stylesheets/partials/_page.scss */
+/* line 80, ../../../app/stylesheets/partials/_page.scss */
 #main h2 {
   font-weight: bold;
 }
 
-/* line 83, ../../../app/stylesheets/partials/_page.scss */
+/* line 85, ../../../app/stylesheets/partials/_page.scss */
 footer {
   clear: both;
+}
+
+/* line 90, ../../../app/stylesheets/partials/_page.scss */
+#contact a {
+  position: relative;
+}
+/* line 92, ../../../app/stylesheets/partials/_page.scss */
+#contact a:hover {
+  top: -1px;
+}
+/* line 95, ../../../app/stylesheets/partials/_page.scss */
+#contact a:active {
+  top: 0px;
+}
+
+/* line 101, ../../../app/stylesheets/partials/_page.scss */
+.skype {
+  color: white;
+  background-color: #04aff5;
+  font-weight: bold;
+}
+
+/* line 107, ../../../app/stylesheets/partials/_page.scss */
+.facebook {
+  background-color: #3a5a97;
+  color: white;
+}
+/* line 110, ../../../app/stylesheets/partials/_page.scss */
+.facebook:visited {
+  color: white;
+}
+
+/* line 115, ../../../app/stylesheets/partials/_page.scss */
+.linkedin {
+  background-color: white;
+}
+/* line 117, ../../../app/stylesheets/partials/_page.scss */
+.linkedin .linked {
+  color: black;
+}
+/* line 120, ../../../app/stylesheets/partials/_page.scss */
+.linkedin .in {
+  background-color: #006bb0;
+  color: white;
+  font-weight: bold;
 }
 
 @media print {
