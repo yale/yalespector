@@ -112,6 +112,28 @@ footer {
   }
 }
 
+.facebook, .skype {
+  padding: 0 4px;
+}
+
+.facebook, .skype, .linkedin {
+  @include border-radius(3px)
+}
+
+.linked {
+  padding-left: 4px;
+  padding-right: 2px;
+  @include border-left-radius(3px)
+}
+
+.in {
+  position: relative;
+  padding-left: 2px;
+  padding-right: 4px;
+  left: 1px;
+  @include border-right-radius(3px)
+}
+
 .linkedin {
   background-color: white;
   .linked {
