@@ -4187,3 +4187,23 @@ ActionController::RoutingError (No route matches "/stylesheets/style.css"):
   
 
 Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-31 01:30:21 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.7ms)
+Rendered layouts/_head.html.haml (25.5ms)
+Rendered layouts/_header.html.haml (1.8ms)
+Rendered layouts/_flashes.html.haml (2.4ms)
+Rendered layouts/_footer.html.haml (1.2ms)
+Rendered layouts/_javascripts.html.haml (37.9ms)
+Rendered yale/intro.html.haml within layouts/application (303.7ms)
+Completed 200 OK in 361ms (Views: 360.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2011-03-31 01:30:22 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css"):
+  
+
+Rendered /Users/yale/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.2ms)
