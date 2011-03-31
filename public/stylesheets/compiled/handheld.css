@@ -1,11 +1,11 @@
-/* line 1, ../../../app/stylesheets/handheld.scss */
+/* line 1, ../../../app/stylesheets/handheld.sass */
 * {
   float: none;
-  background: #fff;
-  color: #000;
+  background: white;
+  color: black;
 }
 
-/* line 8, ../../../app/stylesheets/handheld.scss */
+/* line 9, ../../../app/stylesheets/handheld.sass */
 body {
   font-size: 80%;
 }

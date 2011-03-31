@@ -1,0 +1,120 @@
+@import compass/css3
+
+//-----------------------------------------------
+// The following html5-boilerplate styles should
+// probably be customized for each site
+//-----------------------------------------------
+
+body, select, input, textarea
+  color: $font-color
+  // Set your base font here, to apply evenly
+  font-family: $base-font-family
+
+//Headers (h1, h2, etc) have no default font-size or margin; define those yourself
+h1, h2, h3, h4, h5, h6
+  // Bold might not be the best choice if you are
+  // embedding a @font-face that's already bold
+  // font-weight: bold;
+  margin-bottom: 1em
+
+a
+  text-decoration: none
+  color: $link-color
+  &:active, &:visited
+    color: $link-color
+  &:hover
+    color: $link-hover-color
+
+strong, th
+  font-weight: bold
+  color: white
+
+small
+  // Use font-size mixin to convert to percentage for YUI
+  // http://developer.yahoo.com/yui/3/cssfonts/#fontsize
+  +font-size(11px)
+  // approx 85% when base-font-size eq 13px
+
+// Add the 'required' attribute on your
+// inputs if you want to use these
+input:valid, textarea:valid
+
+input:invalid, textarea:invalid
+  +border-radius(1px)
+  +box-shadow(red, 0, 0, 5px, 0)
+
+.no-boxshadow input:invalid,
+.no-boxshadow textarea:invalid
+  background-color: #f0dddd
+
+//-----------------------------------
+// Add your own custom styles below
+//-----------------------------------
+
+body
+  background: #494949 url(../../images/bg.png)
+
+#container
+  width: 80%
+  padding-top: 5em
+  margin: 0 auto
+
+header
+  width: 15%
+  float: left
+
+#main
+  margin-left: 15%
+  h1
+    font-size: 24px
+  h2
+    font-weight: bold
+
+footer
+  clear: both
+
+#contact
+  a
+    position: relative
+    &:hover
+      top: -1px
+    &:active
+      top: 0px
+
+.skype
+  color: white
+  background-color: #04aff5
+  font-weight: bold
+
+.facebook
+  background-color: #3a5a97
+  color: white
+  &:visited
+    color: white
+
+.facebook, .skype
+  padding: 0 4px
+
+.facebook, .skype, .linkedin
+  +border-radius(3px)
+
+.linked
+  padding-left: 4px
+  padding-right: 2px
+  +border-left-radius(3px)
+
+.in
+  position: relative
+  padding-left: 2px
+  padding-right: 4px
+  left: 1px
+  +border-right-radius(3px)
+
+.linkedin
+  background-color: white
+  .linked
+    color: black
+  .in
+    background-color: #006bb0
+    color: white
+    font-weight: bold

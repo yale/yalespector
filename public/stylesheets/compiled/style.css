@@ -276,48 +276,48 @@ nav ul, nav li {
   visibility: hidden;
 }
 
-/* line 6, ../../../app/stylesheets/partials/_fonts.scss */
+/* line 6, ../../../app/stylesheets/partials/_fonts.sass */
 .accent {
   color: #ffabab;
 }
 
-/* line 8, ../../../app/stylesheets/partials/_page.scss */
+/* line 8, ../../../app/stylesheets/partials/_page.sass */
 body, select, input, textarea {
   color: #a7a7a7;
   font-family: Anonymous Pro;
 }
 
-/* line 15, ../../../app/stylesheets/partials/_page.scss */
+/* line 14, ../../../app/stylesheets/partials/_page.sass */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
 }
 
-/* line 22, ../../../app/stylesheets/partials/_page.scss */
+/* line 20, ../../../app/stylesheets/partials/_page.sass */
 a {
   text-decoration: none;
   color: #bed190;
 }
-/* line 25, ../../../app/stylesheets/partials/_page.scss */
+/* line 23, ../../../app/stylesheets/partials/_page.sass */
 a:active, a:visited {
   color: #bed190;
 }
-/* line 29, ../../../app/stylesheets/partials/_page.scss */
+/* line 25, ../../../app/stylesheets/partials/_page.sass */
 a:hover {
   color: white;
 }
 
-/* line 34, ../../../app/stylesheets/partials/_page.scss */
+/* line 28, ../../../app/stylesheets/partials/_page.sass */
 strong, th {
   font-weight: bold;
   color: white;
 }
 
-/* line 39, ../../../app/stylesheets/partials/_page.scss */
+/* line 32, ../../../app/stylesheets/partials/_page.sass */
 small {
   font-size: 79%;
 }
 
-/* line 48, ../../../app/stylesheets/partials/_page.scss */
+/* line 42, ../../../app/stylesheets/partials/_page.sass */
 input:invalid, textarea:invalid {
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
@@ -331,84 +331,84 @@ input:invalid, textarea:invalid {
   box-shadow: red 0 0 5px 0;
 }
 
-/* line 53, ../../../app/stylesheets/partials/_page.scss */
+/* line 46, ../../../app/stylesheets/partials/_page.sass */
 .no-boxshadow input:invalid,
 .no-boxshadow textarea:invalid {
   background-color: #f0dddd;
 }
 
-/* line 60, ../../../app/stylesheets/partials/_page.scss */
+/* line 54, ../../../app/stylesheets/partials/_page.sass */
 body {
   background: #494949 url(../../images/bg.png);
 }
 
-/* line 64, ../../../app/stylesheets/partials/_page.scss */
+/* line 57, ../../../app/stylesheets/partials/_page.sass */
 #container {
   width: 80%;
   padding-top: 5em;
   margin: 0 auto;
 }
 
-/* line 70, ../../../app/stylesheets/partials/_page.scss */
+/* line 62, ../../../app/stylesheets/partials/_page.sass */
 header {
   width: 15%;
   float: left;
 }
 
-/* line 75, ../../../app/stylesheets/partials/_page.scss */
+/* line 66, ../../../app/stylesheets/partials/_page.sass */
 #main {
   margin-left: 15%;
 }
-/* line 77, ../../../app/stylesheets/partials/_page.scss */
+/* line 68, ../../../app/stylesheets/partials/_page.sass */
 #main h1 {
   font-size: 24px;
 }
-/* line 80, ../../../app/stylesheets/partials/_page.scss */
+/* line 70, ../../../app/stylesheets/partials/_page.sass */
 #main h2 {
   font-weight: bold;
 }
 
-/* line 85, ../../../app/stylesheets/partials/_page.scss */
+/* line 73, ../../../app/stylesheets/partials/_page.sass */
 footer {
   clear: both;
 }
 
-/* line 90, ../../../app/stylesheets/partials/_page.scss */
+/* line 77, ../../../app/stylesheets/partials/_page.sass */
 #contact a {
   position: relative;
 }
-/* line 92, ../../../app/stylesheets/partials/_page.scss */
+/* line 79, ../../../app/stylesheets/partials/_page.sass */
 #contact a:hover {
   top: -1px;
 }
-/* line 95, ../../../app/stylesheets/partials/_page.scss */
+/* line 81, ../../../app/stylesheets/partials/_page.sass */
 #contact a:active {
   top: 0px;
 }
 
-/* line 101, ../../../app/stylesheets/partials/_page.scss */
+/* line 84, ../../../app/stylesheets/partials/_page.sass */
 .skype {
   color: white;
   background-color: #04aff5;
   font-weight: bold;
 }
 
-/* line 107, ../../../app/stylesheets/partials/_page.scss */
+/* line 89, ../../../app/stylesheets/partials/_page.sass */
 .facebook {
   background-color: #3a5a97;
   color: white;
 }
-/* line 110, ../../../app/stylesheets/partials/_page.scss */
+/* line 92, ../../../app/stylesheets/partials/_page.sass */
 .facebook:visited {
   color: white;
 }
 
-/* line 115, ../../../app/stylesheets/partials/_page.scss */
+/* line 95, ../../../app/stylesheets/partials/_page.sass */
 .facebook, .skype {
   padding: 0 4px;
 }
 
-/* line 119, ../../../app/stylesheets/partials/_page.scss */
+/* line 98, ../../../app/stylesheets/partials/_page.sass */
 .facebook, .skype, .linkedin {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -418,7 +418,7 @@ footer {
   border-radius: 3px;
 }
 
-/* line 123, ../../../app/stylesheets/partials/_page.scss */
+/* line 101, ../../../app/stylesheets/partials/_page.sass */
 .linked {
   padding-left: 4px;
   padding-right: 2px;
@@ -436,7 +436,7 @@ footer {
   border-bottom-left-radius: 3px;
 }
 
-/* line 129, ../../../app/stylesheets/partials/_page.scss */
+/* line 106, ../../../app/stylesheets/partials/_page.sass */
 .in {
   position: relative;
   padding-left: 2px;
@@ -456,15 +456,15 @@ footer {
   border-bottom-right-radius: 3px;
 }
 
-/* line 137, ../../../app/stylesheets/partials/_page.scss */
+/* line 113, ../../../app/stylesheets/partials/_page.sass */
 .linkedin {
   background-color: white;
 }
-/* line 139, ../../../app/stylesheets/partials/_page.scss */
+/* line 115, ../../../app/stylesheets/partials/_page.sass */
 .linkedin .linked {
   color: black;
 }
-/* line 142, ../../../app/stylesheets/partials/_page.scss */
+/* line 117, ../../../app/stylesheets/partials/_page.sass */
 .linkedin .in {
   background-color: #006bb0;
   color: white;
@@ -541,5 +541,27 @@ footer {
   html {
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
+  }
+
+  /* line 21, ../../../app/stylesheets/partials/_media.sass */
+  #skills {
+    height: 181px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding-left: 70px;
+    background: url(../../images/left-bracket.png) left no-repeat;
+  }
+  /* line 28, ../../../app/stylesheets/partials/_media.sass */
+  #skills dl {
+    color: #707070;
+  }
+  /* line 31, ../../../app/stylesheets/partials/_media.sass */
+  #skills dl dt span {
+    color: #a7a7a7;
+  }
+  /* line 33, ../../../app/stylesheets/partials/_media.sass */
+  #skills dl dd {
+    margin-bottom: 16px;
   }
 }
