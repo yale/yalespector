@@ -9,26 +9,20 @@
 
 @media all and (orientation:portrait)
   // Style adjustments for portrait mode goes here
-
+  #skills
+    margin-top: 10px
+    margin-left: 0px
+    margin-bottom: 20px
 
 @media all and (orientation:landscape)
   // Style adjustments for landscape mode goes here
 
+@media screen and (min-device-width: 600px)
+  #skills
+    margin-top: -171px
+    margin-left: 290px
+    margin-bottom: 30px
 
 @media screen and (max-device-width: 480px)
   // Pass in false if you don't want iOS and WinMobile to mobile-optimize the text for you
   +media-mobile(false)
-  #skills
-    height: 181px
-    margin-top: 10px
-    margin-left: 0px
-    margin-bottom: 20px
-    padding-left: 70px
-    background: url(../../images/left-bracket.png) left no-repeat
-    dl
-      color: #707070
-      dt
-        span
-          color: #a7a7a7
-      dd
-        margin-bottom: 16px

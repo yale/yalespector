@@ -344,71 +344,61 @@ body {
 
 /* line 57, ../../../app/stylesheets/partials/_page.sass */
 #container {
-  width: 80%;
+  width: 70%;
   padding-top: 5em;
   margin: 0 auto;
 }
 
-/* line 62, ../../../app/stylesheets/partials/_page.sass */
-header {
-  width: 15%;
-  float: left;
-}
-
-/* line 66, ../../../app/stylesheets/partials/_page.sass */
-#main {
-  margin-left: 15%;
-}
-/* line 68, ../../../app/stylesheets/partials/_page.sass */
+/* line 65, ../../../app/stylesheets/partials/_page.sass */
 #main h1 {
   font-size: 24px;
 }
-/* line 70, ../../../app/stylesheets/partials/_page.sass */
+/* line 67, ../../../app/stylesheets/partials/_page.sass */
 #main h2 {
   font-weight: bold;
 }
 
-/* line 73, ../../../app/stylesheets/partials/_page.sass */
+/* line 70, ../../../app/stylesheets/partials/_page.sass */
 footer {
   clear: both;
 }
 
-/* line 77, ../../../app/stylesheets/partials/_page.sass */
+/* line 74, ../../../app/stylesheets/partials/_page.sass */
 #contact a {
   position: relative;
 }
-/* line 79, ../../../app/stylesheets/partials/_page.sass */
+/* line 76, ../../../app/stylesheets/partials/_page.sass */
 #contact a:hover {
   top: -1px;
 }
-/* line 81, ../../../app/stylesheets/partials/_page.sass */
+/* line 78, ../../../app/stylesheets/partials/_page.sass */
 #contact a:active {
   top: 0px;
 }
 
-/* line 84, ../../../app/stylesheets/partials/_page.sass */
+/* line 81, ../../../app/stylesheets/partials/_page.sass */
 .skype {
   color: white;
   background-color: #04aff5;
   font-weight: bold;
 }
 
-/* line 89, ../../../app/stylesheets/partials/_page.sass */
+/* line 86, ../../../app/stylesheets/partials/_page.sass */
 .facebook {
   background-color: #3a5a97;
   color: white;
 }
-/* line 92, ../../../app/stylesheets/partials/_page.sass */
+/* line 89, ../../../app/stylesheets/partials/_page.sass */
 .facebook:visited {
   color: white;
 }
 
-/* line 95, ../../../app/stylesheets/partials/_page.sass */
+/* line 92, ../../../app/stylesheets/partials/_page.sass */
 .facebook, .skype {
   padding: 0 4px;
 }
 
-/* line 98, ../../../app/stylesheets/partials/_page.sass */
+/* line 95, ../../../app/stylesheets/partials/_page.sass */
 .facebook, .skype, .linkedin {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -418,7 +408,7 @@ footer {
   border-radius: 3px;
 }
 
-/* line 101, ../../../app/stylesheets/partials/_page.sass */
+/* line 98, ../../../app/stylesheets/partials/_page.sass */
 .linked {
   padding-left: 4px;
   padding-right: 2px;
@@ -436,7 +426,7 @@ footer {
   border-bottom-left-radius: 3px;
 }
 
-/* line 106, ../../../app/stylesheets/partials/_page.sass */
+/* line 103, ../../../app/stylesheets/partials/_page.sass */
 .in {
   position: relative;
   padding-left: 2px;
@@ -456,19 +446,39 @@ footer {
   border-bottom-right-radius: 3px;
 }
 
-/* line 113, ../../../app/stylesheets/partials/_page.sass */
+/* line 110, ../../../app/stylesheets/partials/_page.sass */
 .linkedin {
   background-color: white;
 }
-/* line 115, ../../../app/stylesheets/partials/_page.sass */
+/* line 112, ../../../app/stylesheets/partials/_page.sass */
 .linkedin .linked {
   color: black;
 }
-/* line 117, ../../../app/stylesheets/partials/_page.sass */
+/* line 114, ../../../app/stylesheets/partials/_page.sass */
 .linkedin .in {
   background-color: #006bb0;
   color: white;
   font-weight: bold;
+}
+
+/* line 119, ../../../app/stylesheets/partials/_page.sass */
+#skills {
+  height: 181px;
+  width: 290px;
+  padding-left: 70px;
+  background: url(../../images/left-bracket.png) left no-repeat;
+}
+/* line 124, ../../../app/stylesheets/partials/_page.sass */
+#skills dl {
+  color: #707070;
+}
+/* line 127, ../../../app/stylesheets/partials/_page.sass */
+#skills dl dt span {
+  color: #a7a7a7;
+}
+/* line 129, ../../../app/stylesheets/partials/_page.sass */
+#skills dl dd {
+  margin-bottom: 16px;
 }
 
 @media print {
@@ -534,34 +544,54 @@ footer {
   }
 }
 
-@media all and (orientation:portrait) {}
+@media all and (orientation:portrait) {
+  /* line 12, ../../../app/stylesheets/partials/_media.sass */
+  #skills {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+}
+
 @media all and (orientation:landscape) {}
+@media screen and (min-device-width: 600px) {
+  /* line 21, ../../../app/stylesheets/partials/_media.sass */
+  #skills {
+    margin-top: -171px;
+    margin-left: 290px;
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (max-device-width: 480px) {
   /* line 58, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_media.scss */
   html {
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
   }
+}
 
-  /* line 21, ../../../app/stylesheets/partials/_media.sass */
-  #skills {
-    height: 181px;
-    margin-top: 10px;
-    margin-left: 0px;
-    margin-bottom: 20px;
-    padding-left: 70px;
-    background: url(../../images/left-bracket.png) left no-repeat;
-  }
-  /* line 28, ../../../app/stylesheets/partials/_media.sass */
-  #skills dl {
-    color: #707070;
-  }
-  /* line 31, ../../../app/stylesheets/partials/_media.sass */
-  #skills dl dt span {
-    color: #a7a7a7;
-  }
-  /* line 33, ../../../app/stylesheets/partials/_media.sass */
-  #skills dl dd {
-    margin-bottom: 16px;
-  }
+/* line 10, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -54px;
+}
+/* line 18, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#root #root_footer {
+  height: 54px;
+}
+
+/* line 20, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#footer {
+  clear: both;
+  position: relative;
+  height: 54px;
 }

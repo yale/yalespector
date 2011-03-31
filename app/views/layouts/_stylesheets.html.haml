@@ -1,13 +1,7 @@
--# CSS: implied media="all"
-= stylesheet_link_tag 'style', :media => 'all'
-
--# Uncomment if you are specifically targeting less enabled mobile browsers
--#= stylesheet_link_tag 'handheld', :media => 'handheld'
-
 = stylesheet_link_tag 'compiled/style.css', :media => 'all'
 = stylesheet_link_tag 'compiled/handheld.css', :media => 'handheld'
 
-= stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Anonymous+Pro:regular,italic,bold,bolditalic'
+=# stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Anonymous+Pro:regular,italic,bold,bolditalic'
 
 -# Append your own using content_for :stylesheets
 = yield :stylesheets
