@@ -13,13 +13,12 @@ gem 'html5-boilerplate'
 # Markdown
 gem 'rdiscount' 
 
-# BDD
-gem 'rspec'
-gem 'cucumber'
-
 group :development, :test do
   gem 'webrat'
   gem 'sqlite3'
+  # BDD
+  gem 'rspec'
+  gem 'cucumber'
 end
 
 group :production do
