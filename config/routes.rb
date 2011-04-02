@@ -1,6 +1,6 @@
 Yalespector::Application.routes.draw do
   
-  resources :posts
+  resources :articles
   
   root :to => "yale#intro"
   
