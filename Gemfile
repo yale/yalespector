@@ -13,9 +13,20 @@ gem 'html5-boilerplate'
 # Markdown
 gem 'rdiscount' 
 
+# Access control
+gem 'cancan'
+
+# OAuth, FB connect, etc
+gem 'devise'
+gem 'omniauth'
+
+# Semantic forms
+gem 'formtastic'
+
 group :development, :test do
   gem 'webrat'
   gem 'sqlite3'
+  
   # BDD
   gem 'rspec'
   gem 'cucumber'
