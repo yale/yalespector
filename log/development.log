@@ -5187,3 +5187,27 @@ Migrating to CreateArticles (20110402200427)
 [0m
   [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
   [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110402200427')[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-04 13:30:46 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (16.1ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.0ms)
+Rendered layouts/_javascripts.html.haml (5.6ms)
+Rendered layouts/_footer.html.haml (1.4ms)
+Rendered yale/intro.html.haml within layouts/application (60.1ms)
+Completed 200 OK in 97ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-04 15:37:04 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (1.8ms)
+Rendered layouts/_head.html.haml (6.5ms)
+Rendered layouts/_header.html.haml (1.4ms)
+Rendered layouts/_flashes.html.haml (1.8ms)
+Rendered layouts/_javascripts.html.haml (5.3ms)
+Rendered layouts/_footer.html.haml (1.6ms)
+Rendered yale/intro.html.haml within layouts/application (48.3ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
