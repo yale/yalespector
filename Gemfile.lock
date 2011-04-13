@@ -106,10 +106,12 @@ GEM
       activesupport (~> 3.0.0)
       arel (~> 2.0.7)
     mime-types (1.16)
+    mocha (0.9.12)
     multi_json (0.0.5)
     multipart-post (1.1.0)
     mysql2 (0.2.7)
     net-ldap (0.1.1)
+    nifty-generators (0.4.6)
     nokogiri (1.4.4)
     oa-basic (0.2.0)
       multi_json (~> 0.0.2)
@@ -237,7 +239,9 @@ DEPENDENCIES
   launchy
   meta_search
   meta_where
+  mocha
   mysql2
+  nifty-generators
   omniauth
   paper_trail
   rails

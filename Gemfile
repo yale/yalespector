@@ -2,9 +2,6 @@ source 'http://rubygems.org'
 
 gem 'rails'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
 # HAML/SASS
 gem 'haml'
 gem 'compass'
@@ -29,6 +26,9 @@ gem 'decent_exposure'
 # Versioning
 gem 'paper_trail'
 
+# Image attachment
+gem 'paperclip'
+
 # ActiveRecord search
 gem "meta_where"
 gem "meta_search"
@@ -45,7 +45,7 @@ end
 group :development, :test do
   gem 'webrat'
   gem 'sqlite3'
-  
+  gem 'nifty-generators'
   gem 'rspec'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
@@ -54,3 +54,4 @@ end
 group :production do
   gem 'mysql2'
 end
+gem "mocha", :group => :test

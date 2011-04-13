@@ -481,6 +481,36 @@ footer {
   margin-bottom: 16px;
 }
 
+/* line 3, ../../../app/stylesheets/partials/_form.sass */
+input, textarea {
+  background-color: #333333;
+  border: none;
+  padding: 3px;
+  -moz-box-shadow: #555555 0px 0px 5px 0;
+  -webkit-box-shadow: #555555 0px 0px 5px 0;
+  -o-box-shadow: #555555 0px 0px 5px 0;
+  box-shadow: #555555 0px 0px 5px 0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  outline: none;
+}
+/* line 10, ../../../app/stylesheets/partials/_form.sass */
+input:focus, textarea:focus {
+  -moz-box-shadow: #666666 0px 0px 5px 0;
+  -webkit-box-shadow: #666666 0px 0px 5px 0;
+  -o-box-shadow: #666666 0px 0px 5px 0;
+  box-shadow: #666666 0px 0px 5px 0;
+}
+
+/* line 13, ../../../app/stylesheets/partials/_form.sass */
+label {
+  display: block;
+}
+
 @media print {
   /* line 24, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_media.scss */
   * {
