@@ -366,49 +366,41 @@ footer {
 /* line 74, ../../../app/stylesheets/partials/_page.sass */
 #contact a {
   position: relative;
-}
-/* line 76, ../../../app/stylesheets/partials/_page.sass */
-#contact a:hover {
-  top: -1px;
-}
-/* line 78, ../../../app/stylesheets/partials/_page.sass */
-#contact a:active {
-  top: 0px;
-}
-
-/* line 81, ../../../app/stylesheets/partials/_page.sass */
-.skype {
-  color: white;
-  background-color: #04aff5;
-  font-weight: bold;
-}
-
-/* line 86, ../../../app/stylesheets/partials/_page.sass */
-.facebook {
-  background-color: #3a5a97;
-  color: white;
-}
-/* line 89, ../../../app/stylesheets/partials/_page.sass */
-.facebook:visited {
-  color: white;
-}
-
-/* line 92, ../../../app/stylesheets/partials/_page.sass */
-.facebook, .skype {
-  padding: 0 4px;
-}
-
-/* line 95, ../../../app/stylesheets/partials/_page.sass */
-.facebook, .skype, .linkedin {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   -o-border-radius: 3px;
   -ms-border-radius: 3px;
   -khtml-border-radius: 3px;
   border-radius: 3px;
+  padding: 0 4px;
+}
+/* line 78, ../../../app/stylesheets/partials/_page.sass */
+#contact a:hover {
+  top: -1px;
+}
+/* line 80, ../../../app/stylesheets/partials/_page.sass */
+#contact a:active {
+  top: 0px;
 }
 
-/* line 98, ../../../app/stylesheets/partials/_page.sass */
+/* line 83, ../../../app/stylesheets/partials/_page.sass */
+.skype {
+  color: white;
+  background-color: #04aff5;
+  font-weight: bold;
+}
+
+/* line 88, ../../../app/stylesheets/partials/_page.sass */
+.facebook {
+  background-color: #3a5a97;
+  color: white;
+}
+/* line 91, ../../../app/stylesheets/partials/_page.sass */
+.facebook:visited {
+  color: white;
+}
+
+/* line 94, ../../../app/stylesheets/partials/_page.sass */
 .linked {
   padding-left: 4px;
   padding-right: 2px;
@@ -426,7 +418,7 @@ footer {
   border-bottom-left-radius: 3px;
 }
 
-/* line 103, ../../../app/stylesheets/partials/_page.sass */
+/* line 99, ../../../app/stylesheets/partials/_page.sass */
 .in {
   position: relative;
   padding-left: 2px;
@@ -446,37 +438,49 @@ footer {
   border-bottom-right-radius: 3px;
 }
 
-/* line 110, ../../../app/stylesheets/partials/_page.sass */
-.linkedin {
+/* line 106, ../../../app/stylesheets/partials/_page.sass */
+#contact .linkedin {
+  padding-left: 0px;
+  padding-right: 0px;
   background-color: white;
 }
-/* line 112, ../../../app/stylesheets/partials/_page.sass */
-.linkedin .linked {
+/* line 110, ../../../app/stylesheets/partials/_page.sass */
+#contact .linkedin .linked {
   color: black;
 }
-/* line 114, ../../../app/stylesheets/partials/_page.sass */
-.linkedin .in {
+/* line 112, ../../../app/stylesheets/partials/_page.sass */
+#contact .linkedin .in {
   background-color: #006bb0;
   color: white;
   font-weight: bold;
 }
 
-/* line 119, ../../../app/stylesheets/partials/_page.sass */
+/* line 117, ../../../app/stylesheets/partials/_page.sass */
+#contact .github {
+  background-color: #fcfcfc;
+  color: black;
+}
+/* line 120, ../../../app/stylesheets/partials/_page.sass */
+#contact .github:visited {
+  color: black;
+}
+
+/* line 123, ../../../app/stylesheets/partials/_page.sass */
 #skills {
   height: 181px;
   width: 290px;
   padding-left: 70px;
   background: url(../../images/left-bracket.png) left no-repeat;
 }
-/* line 124, ../../../app/stylesheets/partials/_page.sass */
+/* line 128, ../../../app/stylesheets/partials/_page.sass */
 #skills dl {
   color: #707070;
 }
-/* line 127, ../../../app/stylesheets/partials/_page.sass */
+/* line 131, ../../../app/stylesheets/partials/_page.sass */
 #skills dl dt span {
   color: #a7a7a7;
 }
-/* line 129, ../../../app/stylesheets/partials/_page.sass */
+/* line 133, ../../../app/stylesheets/partials/_page.sass */
 #skills dl dd {
   margin-bottom: 16px;
 }

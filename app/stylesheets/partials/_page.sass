@@ -73,6 +73,8 @@ footer
 #contact
   a
     position: relative
+    +border-radius(3px)
+    padding: 0 4px
     &:hover
       top: -1px
     &:active
@@ -89,12 +91,6 @@ footer
   &:visited
     color: white
 
-.facebook, .skype
-  padding: 0 4px
-
-.facebook, .skype, .linkedin
-  +border-radius(3px)
-
 .linked
   padding-left: 4px
   padding-right: 2px
@@ -107,7 +103,9 @@ footer
   left: 1px
   +border-right-radius(3px)
 
-.linkedin
+#contact .linkedin
+  padding-left: 0px
+  padding-right: 0px
   background-color: white
   .linked
     color: black
@@ -115,6 +113,12 @@ footer
     background-color: #006bb0
     color: white
     font-weight: bold
+
+#contact .github
+  background-color: #fcfcfc
+  color: black
+  &:visited
+    color: black
 
 #skills
   height: 181px

@@ -25937,3 +25937,147 @@ Rendered layouts/_javascripts.html.haml (5.3ms)
 Rendered layouts/_footer.html.haml (1.6ms)
 Rendered projects/new.html.haml within layouts/application (41.3ms)
 Completed 200 OK in 55ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-21 19:01:17 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.6ms)
+Rendered layouts/_head.html.haml (25.2ms)
+Rendered layouts/_header.html.haml (2.2ms)
+Rendered layouts/_flashes.html.haml (2.5ms)
+Rendered layouts/_footer.html.haml (2.0ms)
+Rendered layouts/_javascripts.html.haml (30.0ms)
+Rendered yale/intro.html.haml within layouts/application (158.1ms)
+Completed 200 OK in 237ms (Views: 236.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-21 19:02:34 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (8.2ms)
+Rendered layouts/_header.html.haml (1.9ms)
+Rendered layouts/_flashes.html.haml (2.4ms)
+Rendered layouts/_footer.html.haml (1.7ms)
+Rendered layouts/_javascripts.html.haml (7.1ms)
+Rendered yale/intro.html.haml within layouts/application (107.8ms)
+Completed 200 OK in 115ms (Views: 114.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-21 19:02:51 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.3ms)
+Rendered layouts/_head.html.haml (9.5ms)
+Rendered layouts/_header.html.haml (2.4ms)
+Rendered layouts/_flashes.html.haml (2.8ms)
+Rendered layouts/_footer.html.haml (2.1ms)
+Rendered layouts/_javascripts.html.haml (8.5ms)
+Rendered yale/intro.html.haml within layouts/application (71.4ms)
+Completed 200 OK in 81ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-21 19:05:48 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (55.5ms)
+Rendered layouts/_head.html.haml (67.2ms)
+Rendered layouts/_header.html.haml (2.1ms)
+Rendered layouts/_flashes.html.haml (2.6ms)
+Rendered layouts/_footer.html.haml (1.8ms)
+Rendered layouts/_javascripts.html.haml (7.0ms)
+Rendered yale/intro.html.haml within layouts/application (120.9ms)
+Completed 200 OK in 128ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-21 19:06:45 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.0ms)
+Rendered layouts/_head.html.haml (7.2ms)
+Rendered layouts/_header.html.haml (1.7ms)
+Rendered layouts/_flashes.html.haml (2.1ms)
+Rendered layouts/_footer.html.haml (1.5ms)
+Rendered layouts/_javascripts.html.haml (5.8ms)
+Rendered yale/intro.html.haml within layouts/application (50.6ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-21 19:07:22 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.1ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.7ms)
+Rendered layouts/_flashes.html.haml (2.2ms)
+Rendered layouts/_footer.html.haml (1.6ms)
+Rendered layouts/_javascripts.html.haml (8.1ms)
+Rendered yale/intro.html.haml within layouts/application (107.0ms)
+Completed 200 OK in 113ms (Views: 112.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-21 19:08:27 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.1ms)
+Rendered layouts/_head.html.haml (7.3ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.2ms)
+Rendered layouts/_footer.html.haml (1.7ms)
+Rendered layouts/_javascripts.html.haml (6.5ms)
+Rendered yale/intro.html.haml within layouts/application (51.7ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-21 19:08:43 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.0ms)
+Rendered layouts/_head.html.haml (19.1ms)
+Rendered layouts/_header.html.haml (2.2ms)
+Rendered layouts/_flashes.html.haml (4.0ms)
+Rendered layouts/_footer.html.haml (2.1ms)
+Rendered layouts/_javascripts.html.haml (7.5ms)
+Rendered yale/intro.html.haml within layouts/application (177.2ms)
+Completed 200 OK in 190ms (Views: 189.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-21 19:10:35 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.1ms)
+Rendered layouts/_head.html.haml (7.3ms)
+Rendered layouts/_header.html.haml (1.6ms)
+Rendered layouts/_flashes.html.haml (2.3ms)
+Rendered layouts/_footer.html.haml (1.6ms)
+Rendered layouts/_javascripts.html.haml (6.9ms)
+Rendered yale/intro.html.haml within layouts/application (52.3ms)
+Completed 200 OK in 58ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-21 19:10:37 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (1.8ms)
+Rendered layouts/_head.html.haml (6.3ms)
+Rendered layouts/_header.html.haml (1.3ms)
+Rendered layouts/_flashes.html.haml (1.8ms)
+Rendered layouts/_footer.html.haml (1.3ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (90.9ms)
+Completed 200 OK in 96ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-21 19:11:08 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.7ms)
+Rendered layouts/_head.html.haml (8.5ms)
+Rendered layouts/_header.html.haml (1.8ms)
+Rendered layouts/_flashes.html.haml (2.4ms)
+Rendered layouts/_footer.html.haml (1.8ms)
+Rendered layouts/_javascripts.html.haml (7.3ms)
+Rendered yale/intro.html.haml within layouts/application (56.9ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-21 19:11:46 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.6ms)
+Rendered layouts/_head.html.haml (57.7ms)
+Rendered layouts/_header.html.haml (2.0ms)
+Rendered layouts/_flashes.html.haml (2.4ms)
+Rendered layouts/_footer.html.haml (1.7ms)
+Rendered layouts/_javascripts.html.haml (6.7ms)
+Rendered yale/intro.html.haml within layouts/application (105.6ms)
+Completed 200 OK in 114ms (Views: 113.1ms | ActiveRecord: 0.0ms)
