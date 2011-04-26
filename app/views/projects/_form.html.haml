@@ -1,0 +1,12 @@
+= semantic_form_for @project do |f|
+  %hgroup
+    %h1 Create a new project
+    %h2 Tell the world about your work!
+  %fieldset
+    %legend Project Info
+    - f.inputs do
+      = f.input :name
+      = f.input :year, :as => :select, :collection => (2005..2012)
+      = f.input :description
+    - f.buttons do
+      = f.submit

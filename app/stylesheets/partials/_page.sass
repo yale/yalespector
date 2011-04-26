@@ -8,7 +8,7 @@
 body, select, input, textarea
   color: $font-color
   // Set your base font here, to apply evenly
-  font-family: $base-font-family
+  font-family: Consolas, $base-font-family
 
 //Headers (h1, h2, etc) have no default font-size or margin; define those yourself
 h1, h2, h3, h4, h5, h6
@@ -18,6 +18,8 @@ h1, h2, h3, h4, h5, h6
   margin-bottom: 1em
 
 a
+  @include transition-duration(.1s)
+  @include transition-timing-function(ease-out)
   text-decoration: none
   color: $link-color
   &:active, &:visited
@@ -32,7 +34,7 @@ strong, th
 small
   // Use font-size mixin to convert to percentage for YUI
   // http://developer.yahoo.com/yui/3/cssfonts/#fontsize
-  +font-size(11px)
+  +font-size(12px)
   // approx 85% when base-font-size eq 13px
 
 // Add the 'required' attribute on your
@@ -52,18 +54,35 @@ input:invalid, textarea:invalid
 //-----------------------------------
 
 body
-  background: #494949 url(../../images/bg.png)
+  background: #000 url(../../images/bg.jpg) -960px -900px
+  #bg-mask
+    z-index: -1
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: black
+    
+.name
+  color: white
+  font-weight: bold
 
 #container
-  width: 70%
+  width: 800px
   padding-top: 5em
   margin: 0 auto
 
 header
+  +text-shadow(#000, 1px, 1px, 1px)
+  h1
+    font-size: 46px
+  h2
+    font-size: 22px
 
 #main
   h1
-    font-size: 24px
+    margin-bottom: 0px
   h2
     font-weight: bold
 
@@ -71,64 +90,54 @@ footer
   clear: both
 
 #contact
+  padding-top: 8px
   a
+    +box-shadow(#333, 1px, 1px, 5px)
     position: relative
-    +border-radius(3px)
-    padding: 0 4px
+    display: inline-block
+    width: 32px
+    height: 32px
     &:hover
-      top: -1px
+      top: -2px
+      +box-shadow(#222, 1px, 3px, 5px)
     &:active
-      top: 0px
-
-.skype
-  color: white
-  background-color: #04aff5
-  font-weight: bold
-
-.facebook
-  background-color: #3a5a97
-  color: white
-  &:visited
-    color: white
-
-.linked
-  padding-left: 4px
-  padding-right: 2px
-  +border-left-radius(3px)
-
-.in
-  position: relative
-  padding-left: 2px
-  padding-right: 4px
-  left: 1px
-  +border-right-radius(3px)
-
-#contact .linkedin
-  padding-left: 0px
-  padding-right: 0px
-  background-color: white
-  .linked
-    color: black
-  .in
-    background-color: #006bb0
-    color: white
-    font-weight: bold
-
-#contact .github
-  background-color: #fcfcfc
-  color: black
-  &:visited
-    color: black
+      top: -1px
+      +box-shadow(#222, 1px, 2px, 5px)
+  #facebook
+    +replace-text("../../images/icons/facebook-32x32.png")
+  #twitter
+    +replace-text("../../images/icons/twitter-32x32.png")
+  #linkedin
+    +replace-text("../../images/icons/linkedin-32x32.png")
+  #skype
+    +replace-text("../../images/icons/skype-32x32.png")
+  #github
+    +replace-text("../../images/icons/github-32x32.png")
+  #reddit
+    +replace-text("../../images/icons/reddit-32x32.png")
+  #email
+    +replace-text("../../images/icons/email-32x32.png")
 
 #skills
-  height: 181px
-  width: 290px
-  padding-left: 70px
-  background: url(../../images/left-bracket.png) left no-repeat
+  background: rgba(0,0,0,.5)
+  +box-shadow(#000,0px,2px,6px)
+  .inner
+    padding: 10px
+    margin-top: 94px
+  font-size: 14px
+  position: absolute
+  top: 0
+  margin-left: 500px
+  min-width: 270px
+  a
+    border-bottom: solid 1px #333
   dl
-    color: #707070
     dt
+      font-size: 15px
       span
-        color: #a7a7a7
+        font-weight: bold
     dd
-      margin-bottom: 16px
+      color: #555
+      font-size: 13px
+      text-align: right
+      margin-bottom: 12px

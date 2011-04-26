@@ -1,2 +1,9 @@
-%small.copyright
-  Copyright &copy; #{Date.today.year}
+#contact
+  %p#find-me
+    = mail_to "yale.spector@gmail.com", "email", :id => :email
+    = link_to "facebook", "http://facebook.com/yale.spector", :id => :facebook, :target => :blank
+    = link_to "twitter", "http://twitter.com/yalespector", :id => :twitter, :target => :blank
+    = link_to "linkedin", "http://linkedin.com/in/yalespector", :id => :linkedin, :target => :blank
+    = link_to "skype", "skype:thebrokenlight?call", :id => :skype
+    = link_to "github", "http://github.com/yale", :id => :github, :target => :blank
+    = link_to "reddit", "http://reddit.com/user/thebrokenlight", :id => :reddit, :target => :blank

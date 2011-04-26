@@ -1,66 +1,63 @@
-%hgroup
-  %h1 Hi, I'm Yale Spector.
+%header
+  %h1 
+    I'm 
+    %span.name Yale Spector
   %h2
-    I
-    %br/
-    f**king
-    %br/
+    and I fucking
     %span.accent love
-    %br/
-    the 
-    %br/
-    Internet.
+    the Internet.
 
 #skills
-  %dl
-    %dt
-      <
-      %span> html5
-      >&nbsp;
-      %span> css3
-      {} and $(
-      %span> jquery
-      )
-    %dd
-      #{"//"} for kick ass user experience
-    %dt
-      #{"<%="} 
-      %span ruby on rails
-      #{"%>"}
-    %dd  
-      #{"//"} for kick ass agile development
-    %dt  
-      %span Drupal
-    %dd  
-      #{"//"} for kick ass content management
-    %dt
-      #{"<?"}
-      %span> php
-      #{" ?>"} and 
-      %span MySQL
-    %dd  
-      #{"//"} because I pretty much have to
-
-#contact
-  %p
-    %strong find me
-    on
-    = link_to "github", "http://github.com/yale", :class => :github, :target => :blank
-    = link_to "facebook", "http://facebook.com/yale.spector", :class => :facebook, :target => :blank
-    = link_to "http://linkedin.com/in/yalespector", :class => :linkedin, :target => :blank do
-      %span.linked Linked
-      %span.in> in
-    %br
-    %strong call me
-    on
-    = link_to "skype", "skype:thebrokenlight?call", :class => :skype
-    %br
-    %strong mail me
-    at
-    = mail_to "yale.spector@gmail.com"
-
-- content_for :style do
-  :sass
-    h2
-      font-size: 55px
-      line-height: 50px
+  .inner
+    %h2 Here's how I roll:
+    %dl
+      %dt
+        <
+        %span><
+          = link_to "html5", 'http://diveintohtml5.org/'
+        >&nbsp;
+        %span>< 
+          = link_to "css3", "http://css3please.com/"
+        {} and $(
+        %span>< 
+          = link_to "jquery", "http://jquery.com/"
+        )
+      %dd
+        » for user interface design
+      %dt
+        %span
+          = link_to "haml", 'http://haml-lang.com/'
+        %span 
+          = link_to "sass", "http://sass-lang.com/"
+        and
+        %span
+          = link_to "compass", "http://http://compass-style.org/"
+      %dd
+        » html/css coated in sugar
+      %dt
+        #{"<%="} 
+        %span<
+          = link_to "ruby", "http://tryruby.org/"
+          on&nbsp;
+          = link_to "rails", "http://railsforzombies.com/"
+        #{"%>"}
+        and
+        %span 
+          = link_to "git", 'http://railscasts.com/episodes/96-git-on-rails'
+      %dd  
+        » agile web app development
+      %dt  
+        %span 
+          = link_to "Drupal", "http://drupal.org/"
+      %dd  
+        » only the greatest CMS ever
+      %dt
+        #{"<?"}
+        %span>< 
+          = link_to "php", "http://codeigniter.com/"
+        #{" ?>"}
+        and 
+        %span 
+          = link_to "MySQL", "http://mysql.com/"
+      %dd  
+        » because I pretty much have to
