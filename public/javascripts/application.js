@@ -5,7 +5,7 @@
 // Let's choose a ratio between 0 and 1
 
 var r = .1;
-var x = -800;
+var x = 0;
 var delay = 70;
 
 var width = 1920;

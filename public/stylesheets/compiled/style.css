@@ -629,9 +629,8 @@ label {
 @media all and (orientation:portrait) {
   /* line 12, ../../../app/stylesheets/partials/_media.sass */
   #skills {
-    margin-top: 10px;
-    margin-left: 0px;
-    margin-bottom: 20px;
+    position: static;
+    margin-top: 20px;
   }
 }
 
