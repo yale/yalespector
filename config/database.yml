@@ -24,5 +24,3 @@ production:
   username: yalespec_rails
   password: 1p6h1i8
   socket: /tmp/mysql.sock
-cucumber:
-  <<: *test
