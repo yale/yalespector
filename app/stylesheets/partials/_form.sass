@@ -1,0 +1,14 @@
+form
+
+input, textarea
+  background-color: #333
+  border: none
+  padding: 3px
+  @include box-shadow(#555, 0px, 0px)
+  @include border-radius(2px)
+  outline: none
+  &:focus
+    @include box-shadow(#666, 0px, 0px)
+
+label
+  display: block
