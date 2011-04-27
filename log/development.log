@@ -42274,3 +42274,15 @@ Rendered layouts/_footer.html.haml (2.7ms)
 Rendered layouts/_javascripts.html.haml (5.1ms)
 Rendered yale/intro.html.haml within layouts/application (42.1ms)
 Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-27 18:41:26 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (1.9ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.5ms)
+Rendered layouts/_flashes.html.haml (1.8ms)
+Rendered layouts/_footer.html.haml (2.8ms)
+Rendered layouts/_javascripts.html.haml (53.2ms)
+Rendered yale/intro.html.haml within layouts/application (87.3ms)
+Completed 200 OK in 93ms (Views: 92.8ms | ActiveRecord: 0.0ms)
