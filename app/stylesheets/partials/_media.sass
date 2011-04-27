@@ -9,9 +9,27 @@
 
 @media all and (orientation:portrait)
   // Style adjustments for portrait mode goes here
+  header
+    text-align: center
+    h1
+      font-size: 30px
+    h2
+      font-size: 15px
+  #container
+    width: auto
+    padding: 10px
   #skills
     position: static
-    margin-top: 20px
+    margin: 10px auto
+    max-width: 80%
+    +border-radius(8px 8px 8px 8px)
+    .inner
+      padding: 10px
+      margin: 0
+  #contact
+    text-align: center
+    small
+      color: #ccc
     
 @media all and (orientation:landscape)
   // Style adjustments for landscape mode goes here

@@ -6,22 +6,29 @@
 
 var r = .1;
 var x = -500;
-var delay = 70;
+var delay = 50;
 
 var width = 1920;
 var height = 1200;
 
 function changeBgPos() {
   x++;
-  $("body").css("background-position", x + "px -300px");
+  $("body").css("background-position", x + "px -400px");
 }
 
-var init = setInterval("changeBgPos()", delay)
-
-
+setInterval("changeBgPos()", delay);
 
 $(document).ready(function() {
-  $.preloadCssImages();
-  $("body").smartBackgroundImage("../images/bg.jpg");
-  $("#bg-mask").fadeOut(1000);
+  setTimeout(function() {
+    $("header").addClass('revealed');
+  }, 500)
+  setTimeout(function() {
+    $("#bg-mask").addClass('blank');
+  }, 1500)
+  setTimeout(function() {
+    $("#skills").addClass('revealed');
+  }, 2500);
+  setTimeout(function() {
+    $("#contact").addClass('revealed');
+  }, 4500);
 })

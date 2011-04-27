@@ -3,61 +3,62 @@
     I'm 
     %span.name Yale Spector
   %h2
-    and I f-cking
+    and I
     %span.accent love
     the Internet.
 
 #skills
   .inner
-    %h2 Here's how I roll:
+    %h2 Here's how I roll. I use:
     %dl
       %dt
         <
-        %span><
-          = link_to "html5", 'http://diveintohtml5.org/'
+        %span<>
+          = link_to "html5", 'http://diveintohtml5.org/', :target => :blank
         >&nbsp;
-        %span>< 
-          = link_to "css3", "http://css3please.com/"
+        %span><
+          = link_to "css3", "http://css3please.com/", :target => :blank
         {} and $(
         %span>< 
-          = link_to "jquery", "http://jquery.com/"
+          = link_to "jquery", "http://jquery.com/", :target => :blank
         )
       %dd
-        » for user interface design
+        to design and code user interfaces
       %dt
-        %span
-          = link_to "haml", 'http://haml-lang.com/'
+        %span><
+          = link_to "haml", 'http://haml-lang.com/', :target => :blank
+        ,
         %span 
-          = link_to "sass", "http://sass-lang.com/"
+          = link_to "sass", "http://sass-lang.com/", :target => :blank
         and
         %span
-          = link_to "compass", "http://http://compass-style.org/"
+          = link_to "compass", "http://http://compass-style.org/", :target => :blank
       %dd
-        » html/css coated in sugar
+        to do so rapidly
       %dt
         #{"<%="} 
         %span<
-          = link_to "ruby", "http://tryruby.org/"
+          = link_to "ruby", "http://tryruby.org/", :target => :blank
           on&nbsp;
-          = link_to "rails", "http://railsforzombies.com/"
+          = link_to "rails", "http://railsforzombies.com/", :target => :blank
         #{"%>"}
         and
         %span 
-          = link_to "git", 'http://railscasts.com/episodes/96-git-on-rails'
+          = link_to "git", 'http://railscasts.com/episodes/96-git-on-rails', :target => :blank
       %dd  
-        » agile web app development
+        to build awesome web applications
       %dt  
         %span 
-          = link_to "Drupal", "http://drupal.org/"
+          = link_to "Drupal", "http://drupal.org/", :target => :blank
       %dd  
-        » only the greatest CMS ever
+        for content management, and
       %dt
         #{"<?"}
         %span>< 
-          = link_to "php", "http://codeigniter.com/"
+          = link_to "php", "http://codeigniter.com/", :target => :blank
         #{" ?>"}
         and 
         %span 
-          = link_to "MySQL", "http://mysql.com/"
+          = link_to "MySQL", "http://mysql.com/", :target => :blank
       %dd  
-        » because I pretty much have to
+        to hack at Drupal themes and modules.

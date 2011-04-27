@@ -4,7 +4,7 @@ gem 'rails'
 
 # HAML/SASS
 gem 'haml'
-gem 'compass'
+gem 'compass', "~>0.11"
 gem 'html5-boilerplate'
 
 # Markdown
