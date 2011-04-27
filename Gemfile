@@ -52,6 +52,8 @@ group :development, :test do
 end
 
 group :production do
-  # gem 'mysql2'
+  gem 'mysql'
+  gem 'mysql2', :require => 'mysql'
 end
+
 gem "mocha", :group => :test
