@@ -52,6 +52,6 @@ group :development, :test do
 end
 
 group :production do
-  gem 'mysql2'
+  # gem 'mysql2'
 end
 gem "mocha", :group => :test
