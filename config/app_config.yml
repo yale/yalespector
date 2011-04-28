@@ -1,0 +1,5 @@
+development:
+  domain: localhost:3000
+
+production:
+  domain: yalespector.com
