@@ -22,5 +22,8 @@ Yalespector::Application.configure do
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
+  
+  # TEMP: Turn caching on in dev to produce static HTML file for prod
+  config.action_controller.perform_caching = true
 end
 
