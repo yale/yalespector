@@ -42395,3 +42395,78 @@ Rendered layouts/_javascripts.html.haml (7.8ms)
 Rendered yale/intro.html.haml within layouts/application (49.9ms)
 Write page /Users/home/Sites/yale/public/index.html (0.5ms)
 Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-04-29 20:51:24 -0400
+  Processing by YaleController#refresh as HTML
+Completed   in 1ms
+
+ActionController::RoutingError (No route matches {:controller=>"yale"}):
+  app/controllers/yale_controller.rb:10:in `refresh'
+
+Rendered /Users/home/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-04-29 20:51:43 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.2ms)
+Completed   in 33ms
+
+ActionView::MissingTemplate (Missing template yale/refresh with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml, :haml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/home/Sites/yale/app/views", "/Users/home/.rvm/gems/ruby-1.9.2-p180/gems/devise-1.3.3/app/views"):
+  
+
+Rendered /Users/home/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-04-29 20:53:16 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.0ms)
+Redirected to 
+Completed   in 15ms
+
+NoMethodError (undefined method `intro_url' for #<YaleController:0x0000010416e748>):
+  app/controllers/yale_controller.rb:11:in `refresh'
+
+Rendered /Users/home/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/home/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (76.4ms)
+Rendered /Users/home/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (84.9ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-04-29 20:54:05 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.0ms)
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-29 20:54:05 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (1.9ms)
+Rendered layouts/_head.html.haml (7.5ms)
+Rendered layouts/_header.html.haml (1.7ms)
+Rendered layouts/_flashes.html.haml (1.8ms)
+Rendered layouts/_footer.html.haml (3.1ms)
+Rendered layouts/_javascripts.html.haml (5.5ms)
+Rendered yale/intro.html.haml within layouts/application (39.7ms)
+Write page /Users/home/Sites/yale/public/index.html (0.4ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-04-29 20:54:07 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.2ms)
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-29 20:54:07 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.8ms)
+Rendered layouts/_head.html.haml (9.4ms)
+Rendered layouts/_header.html.haml (2.2ms)
+Rendered layouts/_flashes.html.haml (3.3ms)
+Rendered layouts/_footer.html.haml (3.5ms)
+Rendered layouts/_javascripts.html.haml (5.2ms)
+Rendered yale/intro.html.haml within layouts/application (46.4ms)
+Write page /Users/home/Sites/yale/public/index.html (0.4ms)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.0ms)
