@@ -14,3 +14,9 @@ capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.html
+/public/navistar/
+/public/phpini.php
+/public/saghi/
+/public/spectorpr/
+/public/thepezman/
+/public/union/
