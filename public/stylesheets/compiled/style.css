@@ -457,8 +457,8 @@ body #bg-mask.blank {
 
 /* line 77, ../../../app/stylesheets/partials/_page.sass */
 #container {
-  width: 760px;
-  padding: 5em 1em;
+  width: 900px;
+  padding: 5em 3em;
   margin: 0 auto;
 }
 
@@ -560,69 +560,45 @@ footer {
   -webkit-transition-duration: 1s;
   -o-transition-duration: 1s;
   transition-duration: 1s;
-  -moz-box-shadow: rgba(238, 238, 238, 0.2) 0px -1px 1px inset;
-  -webkit-box-shadow: rgba(238, 238, 238, 0.2) 0px -1px 1px inset;
-  -o-box-shadow: rgba(238, 238, 238, 0.2) 0px -1px 1px inset;
-  box-shadow: rgba(238, 238, 238, 0.2) 0px -1px 1px inset;
-  -moz-border-radius: 0px 0px 8px 8px;
-  -webkit-border-radius: 0px 0px 8px 8px;
-  -o-border-radius: 0px 0px 8px 8px;
-  -ms-border-radius: 0px 0px 8px 8px;
-  -khtml-border-radius: 0px 0px 8px 8px;
-  border-radius: 0px 0px 8px 8px;
-  background: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 0;
-  margin-left: 440px;
+  margin-left: 360px;
   min-width: 300px;
 }
-/* line 131, ../../../app/stylesheets/partials/_page.sass */
+/* line 128, ../../../app/stylesheets/partials/_page.sass */
 #skills .inner {
   padding: 20px;
-  margin-top: 80px;
+  margin-top: 127px;
 }
-/* line 134, ../../../app/stylesheets/partials/_page.sass */
+/* line 131, ../../../app/stylesheets/partials/_page.sass */
 #skills h2 {
   color: #8599b7;
-  text-align: center;
 }
-/* line 137, ../../../app/stylesheets/partials/_page.sass */
-#skills dl {
-  text-align: center;
-}
-/* line 139, ../../../app/stylesheets/partials/_page.sass */
+/* line 134, ../../../app/stylesheets/partials/_page.sass */
 #skills dl dt {
-  font-family: "Anonymous Pro", Consolas, "Lucida Terminal", Monaco, monospace;
+  font-family: Consolas, "Anonymous Pro", "Lucida Terminal", Monaco, monospace;
   font-size: 16px;
 }
-/* line 142, ../../../app/stylesheets/partials/_page.sass */
+/* line 137, ../../../app/stylesheets/partials/_page.sass */
 #skills dl dt span {
   font-weight: bold;
 }
-/* line 144, ../../../app/stylesheets/partials/_page.sass */
+/* line 139, ../../../app/stylesheets/partials/_page.sass */
 #skills dl dd {
-  color: #555555;
+  color: #aaaaaa;
   font-size: 12px;
   margin-bottom: 12px;
 }
-/* line 148, ../../../app/stylesheets/partials/_page.sass */
-#skills:hover {
-  background: rgba(0, 0, 0, 0.7);
-  -moz-box-shadow: rgba(238, 238, 238, 0.4) 0px -1px 1px inset;
-  -webkit-box-shadow: rgba(238, 238, 238, 0.4) 0px -1px 1px inset;
-  -o-box-shadow: rgba(238, 238, 238, 0.4) 0px -1px 1px inset;
-  box-shadow: rgba(238, 238, 238, 0.4) 0px -1px 1px inset;
-}
-/* line 151, ../../../app/stylesheets/partials/_page.sass */
+/* line 143, ../../../app/stylesheets/partials/_page.sass */
 .js #skills {
   top: -30px;
 }
-/* line 153, ../../../app/stylesheets/partials/_page.sass */
+/* line 145, ../../../app/stylesheets/partials/_page.sass */
 #skills.revealed {
   top: 0px;
 }
 
-/* line 156, ../../../app/stylesheets/partials/_page.sass */
+/* line 148, ../../../app/stylesheets/partials/_page.sass */
 #contact {
   -moz-transition-duration: 2s;
   -webkit-transition-duration: 2s;
@@ -630,7 +606,7 @@ footer {
   transition-duration: 2s;
   padding-top: 8px;
 }
-/* line 159, ../../../app/stylesheets/partials/_page.sass */
+/* line 151, ../../../app/stylesheets/partials/_page.sass */
 #contact a {
   -moz-box-shadow: 1px 1px 2px black;
   -webkit-box-shadow: 1px 1px 2px black;
@@ -649,7 +625,7 @@ footer {
   overflow: hidden;
   text-indent: -9999em;
 }
-/* line 168, ../../../app/stylesheets/partials/_page.sass */
+/* line 160, ../../../app/stylesheets/partials/_page.sass */
 #contact a:hover {
   top: -2px;
   -moz-box-shadow: 1px 3px 4px black;
@@ -657,7 +633,7 @@ footer {
   -o-box-shadow: 1px 3px 4px black;
   box-shadow: 1px 3px 4px black;
 }
-/* line 171, ../../../app/stylesheets/partials/_page.sass */
+/* line 163, ../../../app/stylesheets/partials/_page.sass */
 #contact a:active {
   top: -1px;
   -moz-box-shadow: 1px 2px 4px black;
@@ -759,29 +735,27 @@ label {
   }
 }
 @media all and (orientation:portrait) {
-  /* line 12, ../../../app/stylesheets/partials/_media.sass */
-  header {
-    text-align: center;
-  }
-  /* line 14, ../../../app/stylesheets/partials/_media.sass */
+  /* line 13, ../../../app/stylesheets/partials/_media.sass */
   header h1 {
     font-size: 30px;
   }
-  /* line 16, ../../../app/stylesheets/partials/_media.sass */
+  /* line 15, ../../../app/stylesheets/partials/_media.sass */
   header h2 {
     font-size: 15px;
   }
 
-  /* line 18, ../../../app/stylesheets/partials/_media.sass */
+  /* line 17, ../../../app/stylesheets/partials/_media.sass */
   #container {
     width: auto;
-    padding: 10px;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
 
   /* line 21, ../../../app/stylesheets/partials/_media.sass */
   #skills {
     position: static;
-    margin: 10px auto;
+    margin: 10px;
+    padding: 0px;
     max-width: 80%;
     -moz-border-radius: 8px 8px 8px 8px;
     -webkit-border-radius: 8px 8px 8px 8px;
@@ -790,19 +764,29 @@ label {
     -khtml-border-radius: 8px 8px 8px 8px;
     border-radius: 8px 8px 8px 8px;
   }
-  /* line 26, ../../../app/stylesheets/partials/_media.sass */
+  /* line 27, ../../../app/stylesheets/partials/_media.sass */
   #skills .inner {
-    padding: 10px;
+    padding: 10px 0px;
     margin: 0;
   }
-
-  /* line 29, ../../../app/stylesheets/partials/_media.sass */
-  #contact {
-    text-align: center;
+  /* line 30, ../../../app/stylesheets/partials/_media.sass */
+  #skills dl {
+    position: static;
+    top: 0;
+    right: 0;
   }
-  /* line 31, ../../../app/stylesheets/partials/_media.sass */
+
+  /* line 37, ../../../app/stylesheets/partials/_media.sass */
   #contact small {
     color: #cccccc;
+  }
+}
+@media screen and (min-width: 900px) {
+  /* line 45, ../../../app/stylesheets/partials/_media.sass */
+  #skills dl {
+    position: relative;
+    top: -30px;
+    right: -180px;
   }
 }
 @media screen and (max-device-width: 480px) {

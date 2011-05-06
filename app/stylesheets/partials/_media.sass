@@ -10,31 +10,42 @@
 @media all and (orientation:portrait)
   // Style adjustments for portrait mode goes here
   header
-    text-align: center
     h1
       font-size: 30px
     h2
       font-size: 15px
   #container
     width: auto
-    padding: 10px
+    padding-top: 1em
+    padding-bottom: 1em
   #skills
     position: static
-    margin: 10px auto
+    margin: 10px
+    padding: 0px
     max-width: 80%
     +border-radius(8px 8px 8px 8px)
     .inner
-      padding: 10px
+      padding: 10px 0px
       margin: 0
+    dl
+      position: static
+      top: 0
+      right: 0
+      
+      
   #contact
-    text-align: center
     small
       color: #ccc
     
 @media all and (orientation:landscape)
   // Style adjustments for landscape mode goes here
 
-@media screen and (min-device-width: 600px)
+@media screen and (min-width: 900px)
+  #skills
+    dl
+      position: relative
+      top: -30px
+      right: -180px
 
 @media screen and (max-device-width: 480px)
   // Pass in false if you don't want iOS and WinMobile to mobile-optimize the text for you

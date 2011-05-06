@@ -88,6 +88,11 @@ GEM
     fssm (0.2.7)
     gherkin (2.3.6)
       json (>= 1.4.6)
+    growl (1.0.3)
+    guard (0.3.4)
+      thor (~> 0.14.6)
+    guard-rspec (0.3.1)
+      guard (>= 0.2.2)
     haml (3.1.1)
     html5-boilerplate (0.3.3)
       compass (>= 0.10.0)
@@ -189,6 +194,7 @@ GEM
       rake (>= 0.8.7)
       thor (~> 0.14.4)
     rake (0.8.7)
+    rb-fsevent (0.4.0)
     rdiscount (1.6.8)
     rest-client (1.6.1)
       mime-types (>= 1.16)
@@ -246,6 +252,8 @@ DEPENDENCIES
   devise
   factory_girl_rails
   formtastic
+  growl
+  guard-rspec
   haml
   html5-boilerplate
   launchy
@@ -259,6 +267,7 @@ DEPENDENCIES
   paper_trail
   paperclip
   rails
+  rb-fsevent
   rdiscount
   rspec
   rspec-rails

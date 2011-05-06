@@ -42470,3 +42470,670 @@ Rendered layouts/_javascripts.html.haml (5.2ms)
 Rendered yale/intro.html.haml within layouts/application (46.4ms)
 Write page /Users/home/Sites/yale/public/index.html (0.4ms)
 Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-02 17:43:53 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (5.5ms)
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-02 17:44:07 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.1ms)
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-02 17:44:07 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.8ms)
+Rendered layouts/_head.html.haml (37.8ms)
+Rendered layouts/_header.html.haml (2.9ms)
+Rendered layouts/_flashes.html.haml (3.6ms)
+Rendered layouts/_footer.html.haml (7.0ms)
+Rendered layouts/_javascripts.html.haml (37.8ms)
+Rendered yale/intro.html.haml within layouts/application (166.6ms)
+Write page /Users/home/Sites/yale/public/index.html (0.6ms)
+Completed 200 OK in 231ms (Views: 228.7ms | ActiveRecord: 0.0ms)
+  [1m[36mSQL (16.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.4ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.2ms)[0m  CREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.3ms)[0m  CREATE TABLE "projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "year" integer, "description" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (19.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (1.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110407145555')[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110402200427')
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 11:43:40 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (34.1ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 37ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 11:43:43 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (77.7ms)
+Rendered layouts/_head.html.haml (157.4ms)
+Rendered layouts/_header.html.haml (3.5ms)
+Rendered layouts/_flashes.html.haml (3.9ms)
+Rendered layouts/_footer.html.haml (5.5ms)
+Rendered layouts/_javascripts.html.haml (49.6ms)
+Rendered yale/intro.html.haml within layouts/application (358.1ms)
+Write page /Users/home/Sites/yale/public/index.html (0.6ms)
+Completed 200 OK in 937ms (Views: 934.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 11:44:40 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.2ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 11:44:42 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.8ms)
+Rendered layouts/_head.html.haml (24.8ms)
+Rendered layouts/_header.html.haml (3.1ms)
+Rendered layouts/_flashes.html.haml (3.4ms)
+Rendered layouts/_footer.html.haml (5.6ms)
+Rendered layouts/_javascripts.html.haml (9.0ms)
+Rendered yale/intro.html.haml within layouts/application (85.4ms)
+Write page /Users/home/Sites/yale/public/index.html (0.6ms)
+Completed 200 OK in 95ms (Views: 93.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 11:45:03 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.2ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 11:45:04 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.7ms)
+Rendered layouts/_head.html.haml (11.6ms)
+Rendered layouts/_header.html.haml (4.7ms)
+Rendered layouts/_flashes.html.haml (3.7ms)
+Rendered layouts/_footer.html.haml (4.3ms)
+Rendered layouts/_javascripts.html.haml (11.0ms)
+Rendered yale/intro.html.haml within layouts/application (80.6ms)
+Write page /Users/home/Sites/yale/public/index.html (0.6ms)
+Completed 200 OK in 89ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 11:45:39 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.2ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 11:45:40 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.3ms)
+Rendered layouts/_head.html.haml (12.9ms)
+Rendered layouts/_header.html.haml (2.8ms)
+Rendered layouts/_flashes.html.haml (4.8ms)
+Rendered layouts/_footer.html.haml (8.4ms)
+Rendered layouts/_javascripts.html.haml (12.7ms)
+Rendered yale/intro.html.haml within layouts/application (75.2ms)
+Write page /Users/home/Sites/yale/public/index.html (33.8ms)
+Completed 200 OK in 132ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 11:48:01 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.6ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 3ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 11:48:02 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (4.7ms)
+Rendered layouts/_head.html.haml (17.1ms)
+Rendered layouts/_header.html.haml (2.8ms)
+Rendered layouts/_flashes.html.haml (4.4ms)
+Rendered layouts/_footer.html.haml (5.2ms)
+Rendered layouts/_javascripts.html.haml (9.8ms)
+Rendered yale/intro.html.haml within layouts/application (78.4ms)
+Write page /Users/home/Sites/yale/public/index.html (0.6ms)
+Completed 200 OK in 113ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 11:51:04 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.3ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 5ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 11:51:06 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (4.4ms)
+Rendered layouts/_head.html.haml (20.5ms)
+Rendered layouts/_header.html.haml (7.6ms)
+Rendered layouts/_flashes.html.haml (110.2ms)
+Rendered layouts/_footer.html.haml (21.4ms)
+Rendered layouts/_javascripts.html.haml (11.7ms)
+Rendered yale/intro.html.haml within layouts/application (227.5ms)
+Write page /Users/home/Sites/yale/public/index.html (0.6ms)
+Completed 200 OK in 247ms (Views: 245.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 18:44:04 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.2ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 18:44:06 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.9ms)
+Rendered layouts/_head.html.haml (39.1ms)
+Rendered layouts/_header.html.haml (2.3ms)
+Rendered layouts/_flashes.html.haml (2.4ms)
+Rendered layouts/_footer.html.haml (4.3ms)
+Rendered layouts/_javascripts.html.haml (23.8ms)
+Rendered yale/intro.html.haml within layouts/application (205.6ms)
+Write page /Users/home/Sites/yale/public/index.html (0.4ms)
+Completed 200 OK in 220ms (Views: 219.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 18:47:44 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.2ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 18:47:45 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.4ms)
+Rendered layouts/_head.html.haml (8.6ms)
+Rendered layouts/_header.html.haml (2.2ms)
+Rendered layouts/_flashes.html.haml (2.7ms)
+Rendered layouts/_footer.html.haml (4.5ms)
+Rendered layouts/_javascripts.html.haml (11.9ms)
+Rendered yale/intro.html.haml within layouts/application (122.0ms)
+Write page /Users/home/Sites/yale/public/index.html (0.5ms)
+Completed 200 OK in 129ms (Views: 127.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 18:50:36 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.5ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 18:50:37 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.7ms)
+Rendered layouts/_head.html.haml (11.0ms)
+Rendered layouts/_header.html.haml (2.0ms)
+Rendered layouts/_flashes.html.haml (2.7ms)
+Rendered layouts/_footer.html.haml (3.2ms)
+Rendered layouts/_javascripts.html.haml (6.5ms)
+Rendered yale/intro.html.haml within layouts/application (59.1ms)
+Write page /Users/home/Sites/yale/public/index.html (0.5ms)
+Completed 200 OK in 86ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 18:53:29 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.6ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 3ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 18:53:30 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.5ms)
+Rendered layouts/_head.html.haml (13.3ms)
+Rendered layouts/_header.html.haml (6.1ms)
+Rendered layouts/_flashes.html.haml (3.8ms)
+Rendered layouts/_footer.html.haml (13.0ms)
+Rendered layouts/_javascripts.html.haml (12.7ms)
+Rendered yale/intro.html.haml within layouts/application (97.3ms)
+Write page /Users/home/Sites/yale/public/index.html (0.6ms)
+Completed 200 OK in 127ms (Views: 125.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 18:55:08 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.3ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 18:55:08 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (4.4ms)
+Rendered layouts/_head.html.haml (21.2ms)
+Rendered layouts/_header.html.haml (3.1ms)
+Rendered layouts/_flashes.html.haml (12.3ms)
+Rendered layouts/_footer.html.haml (4.6ms)
+Rendered layouts/_javascripts.html.haml (10.1ms)
+Rendered yale/intro.html.haml within layouts/application (97.1ms)
+Write page /Users/home/Sites/yale/public/index.html (0.7ms)
+Completed 200 OK in 116ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 18:55:40 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.2ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 18:55:41 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.3ms)
+Rendered layouts/_head.html.haml (113.4ms)
+Rendered layouts/_header.html.haml (3.0ms)
+Rendered layouts/_flashes.html.haml (3.6ms)
+Rendered layouts/_footer.html.haml (11.9ms)
+Rendered layouts/_javascripts.html.haml (10.6ms)
+Rendered yale/intro.html.haml within layouts/application (183.8ms)
+Write page /Users/home/Sites/yale/public/index.html (0.6ms)
+Completed 200 OK in 206ms (Views: 204.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 18:57:36 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.8ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 3ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 18:57:38 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.8ms)
+Rendered layouts/_head.html.haml (16.4ms)
+Rendered layouts/_header.html.haml (2.8ms)
+Rendered layouts/_flashes.html.haml (17.1ms)
+Rendered layouts/_footer.html.haml (5.1ms)
+Rendered layouts/_javascripts.html.haml (10.8ms)
+Rendered yale/intro.html.haml within layouts/application (94.7ms)
+Write page /Users/home/Sites/yale/public/index.html (0.6ms)
+Completed 200 OK in 126ms (Views: 124.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:00:22 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.5ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:00:23 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.1ms)
+Rendered layouts/_head.html.haml (25.6ms)
+Rendered layouts/_header.html.haml (2.4ms)
+Rendered layouts/_flashes.html.haml (3.0ms)
+Rendered layouts/_footer.html.haml (4.3ms)
+Rendered layouts/_javascripts.html.haml (23.0ms)
+Rendered yale/intro.html.haml within layouts/application (103.6ms)
+Write page /Users/home/Sites/yale/public/index.html (1.4ms)
+Completed 200 OK in 138ms (Views: 134.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:03:19 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.6ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:03:20 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.2ms)
+Rendered layouts/_head.html.haml (88.7ms)
+Rendered layouts/_header.html.haml (2.3ms)
+Rendered layouts/_flashes.html.haml (2.7ms)
+Rendered layouts/_footer.html.haml (8.3ms)
+Rendered layouts/_javascripts.html.haml (11.1ms)
+Rendered yale/intro.html.haml within layouts/application (145.8ms)
+Write page /Users/home/Sites/yale/public/index.html (0.6ms)
+Completed 200 OK in 159ms (Views: 157.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:03:56 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.2ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:03:56 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (4.0ms)
+Rendered layouts/_head.html.haml (15.6ms)
+Rendered layouts/_header.html.haml (2.7ms)
+Rendered layouts/_flashes.html.haml (5.9ms)
+Rendered layouts/_footer.html.haml (5.1ms)
+Rendered layouts/_javascripts.html.haml (10.6ms)
+Rendered yale/intro.html.haml within layouts/application (74.9ms)
+Write page /Users/home/Sites/yale/public/index.html (4.0ms)
+Completed 200 OK in 89ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:05:46 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (14.1ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 16ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:05:47 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (6.1ms)
+Rendered layouts/_head.html.haml (20.5ms)
+Rendered layouts/_header.html.haml (2.7ms)
+Rendered layouts/_flashes.html.haml (3.0ms)
+Rendered layouts/_footer.html.haml (4.1ms)
+Rendered layouts/_javascripts.html.haml (8.0ms)
+Rendered yale/intro.html.haml within layouts/application (69.6ms)
+Write page /Users/home/Sites/yale/public/index.html (0.5ms)
+Completed 200 OK in 94ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:06:56 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.2ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:06:57 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.5ms)
+Rendered layouts/_head.html.haml (15.0ms)
+Rendered layouts/_header.html.haml (2.7ms)
+Rendered layouts/_flashes.html.haml (18.5ms)
+Rendered layouts/_footer.html.haml (5.4ms)
+Rendered layouts/_javascripts.html.haml (9.7ms)
+Rendered yale/intro.html.haml within layouts/application (95.6ms)
+Write page /Users/home/Sites/yale/public/index.html (0.6ms)
+Completed 200 OK in 108ms (Views: 106.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:07:24 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.2ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:07:25 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.0ms)
+Rendered layouts/_head.html.haml (12.2ms)
+Rendered layouts/_header.html.haml (2.2ms)
+Rendered layouts/_flashes.html.haml (2.8ms)
+Rendered layouts/_footer.html.haml (84.3ms)
+Rendered layouts/_javascripts.html.haml (10.8ms)
+Rendered yale/intro.html.haml within layouts/application (145.6ms)
+Write page /Users/home/Sites/yale/public/index.html (0.8ms)
+Completed 200 OK in 166ms (Views: 163.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:07:57 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.3ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:07:58 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.4ms)
+Rendered layouts/_head.html.haml (27.1ms)
+Rendered layouts/_header.html.haml (2.7ms)
+Rendered layouts/_flashes.html.haml (3.1ms)
+Rendered layouts/_footer.html.haml (4.7ms)
+Rendered layouts/_javascripts.html.haml (11.8ms)
+Rendered yale/intro.html.haml within layouts/application (98.4ms)
+Write page /Users/home/Sites/yale/public/index.html (0.5ms)
+Completed 200 OK in 110ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:08:45 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (7.7ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 11ms
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:08:47 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.1ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:08:47 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.6ms)
+Rendered layouts/_head.html.haml (14.2ms)
+Rendered layouts/_header.html.haml (3.0ms)
+Rendered layouts/_flashes.html.haml (3.4ms)
+Rendered layouts/_footer.html.haml (4.7ms)
+Rendered layouts/_javascripts.html.haml (9.3ms)
+Rendered yale/intro.html.haml within layouts/application (66.4ms)
+Write page /Users/home/Sites/yale/public/index.html (0.7ms)
+Completed 200 OK in 102ms (Views: 99.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:09:23 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.2ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:09:24 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.7ms)
+Rendered layouts/_head.html.haml (11.0ms)
+Rendered layouts/_header.html.haml (3.1ms)
+Rendered layouts/_flashes.html.haml (2.9ms)
+Rendered layouts/_footer.html.haml (4.7ms)
+Rendered layouts/_javascripts.html.haml (8.5ms)
+Rendered yale/intro.html.haml within layouts/application (60.0ms)
+Write page /Users/home/Sites/yale/public/index.html (0.5ms)
+Completed 200 OK in 69ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:16:35 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.5ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 3ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:16:37 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.2ms)
+Rendered layouts/_head.html.haml (12.9ms)
+Rendered layouts/_header.html.haml (2.8ms)
+Rendered layouts/_flashes.html.haml (3.0ms)
+Rendered layouts/_footer.html.haml (4.4ms)
+Rendered layouts/_javascripts.html.haml (8.6ms)
+Rendered yale/intro.html.haml within layouts/application (69.4ms)
+Write page /Users/home/Sites/yale/public/index.html (0.5ms)
+Completed 200 OK in 103ms (Views: 101.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:17:54 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (19.2ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 21ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:17:55 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (4.3ms)
+Rendered layouts/_head.html.haml (17.7ms)
+Rendered layouts/_header.html.haml (75.1ms)
+Rendered layouts/_flashes.html.haml (3.7ms)
+Rendered layouts/_footer.html.haml (5.5ms)
+Rendered layouts/_javascripts.html.haml (12.2ms)
+Rendered yale/intro.html.haml within layouts/application (148.1ms)
+Write page /Users/home/Sites/yale/public/index.html (0.5ms)
+Completed 200 OK in 180ms (Views: 177.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:18:47 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (6.5ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 9ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:18:48 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (9.1ms)
+Rendered layouts/_head.html.haml (22.1ms)
+Rendered layouts/_header.html.haml (5.6ms)
+Rendered layouts/_flashes.html.haml (4.7ms)
+Rendered layouts/_footer.html.haml (5.1ms)
+Rendered layouts/_javascripts.html.haml (10.8ms)
+Rendered yale/intro.html.haml within layouts/application (87.1ms)
+Write page /Users/home/Sites/yale/public/index.html (0.5ms)
+Completed 200 OK in 112ms (Views: 109.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:20:01 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (35.5ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 37ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:20:02 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.8ms)
+Rendered layouts/_head.html.haml (12.0ms)
+Rendered layouts/_header.html.haml (2.3ms)
+Rendered layouts/_flashes.html.haml (3.1ms)
+Rendered layouts/_footer.html.haml (4.5ms)
+Rendered layouts/_javascripts.html.haml (9.7ms)
+Rendered yale/intro.html.haml within layouts/application (65.4ms)
+Write page /Users/home/Sites/yale/public/index.html (0.6ms)
+Completed 200 OK in 79ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:20:24 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.2ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:20:25 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (2.9ms)
+Rendered layouts/_head.html.haml (12.1ms)
+Rendered layouts/_header.html.haml (2.8ms)
+Rendered layouts/_flashes.html.haml (3.0ms)
+Rendered layouts/_footer.html.haml (5.1ms)
+Rendered layouts/_javascripts.html.haml (8.4ms)
+Rendered yale/intro.html.haml within layouts/application (65.1ms)
+Write page /Users/home/Sites/yale/public/index.html (0.5ms)
+Completed 200 OK in 76ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:20:52 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.3ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 4ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:20:53 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (4.1ms)
+Rendered layouts/_head.html.haml (15.0ms)
+Rendered layouts/_header.html.haml (3.9ms)
+Rendered layouts/_flashes.html.haml (4.4ms)
+Rendered layouts/_footer.html.haml (98.3ms)
+Rendered layouts/_javascripts.html.haml (15.0ms)
+Rendered yale/intro.html.haml within layouts/application (189.2ms)
+Write page /Users/home/Sites/yale/public/index.html (0.7ms)
+Completed 200 OK in 200ms (Views: 198.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:21:44 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (38.0ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 40ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:21:45 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (6.0ms)
+Rendered layouts/_head.html.haml (17.3ms)
+Rendered layouts/_header.html.haml (2.4ms)
+Rendered layouts/_flashes.html.haml (2.8ms)
+Rendered layouts/_footer.html.haml (4.3ms)
+Rendered layouts/_javascripts.html.haml (10.2ms)
+Rendered yale/intro.html.haml within layouts/application (78.6ms)
+Write page /Users/home/Sites/yale/public/index.html (0.5ms)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/r" for 127.0.0.1 at 2011-05-06 19:22:34 -0400
+  Processing by YaleController#refresh as HTML
+Expire page /Users/home/Sites/yale/public/index.html (0.3ms)
+Redirected to http://yale.dev/
+Completed 302 Found in 6ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-06 19:22:35 -0400
+  Processing by YaleController#intro as HTML
+Rendered layouts/_stylesheets.html.haml (3.9ms)
+Rendered layouts/_head.html.haml (17.6ms)
+Rendered layouts/_header.html.haml (3.2ms)
+Rendered layouts/_flashes.html.haml (4.6ms)
+Rendered layouts/_footer.html.haml (10.1ms)
+Rendered layouts/_javascripts.html.haml (14.4ms)
+Rendered yale/intro.html.haml within layouts/application (91.9ms)
+Write page /Users/home/Sites/yale/public/index.html (0.6ms)
+Completed 200 OK in 105ms (Views: 103.1ms | ActiveRecord: 0.0ms)

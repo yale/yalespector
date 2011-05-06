@@ -75,8 +75,8 @@ body
   font-weight: bold
 
 #container
-  width: 760px
-  padding: 5em 1em
+  width: 900px
+  padding: 5em 3em
   margin: 0 auto
 
 header
@@ -121,33 +121,25 @@ footer
 
 #skills
   +transition-duration(1s)
-  +box-shadow(rgba(#eee,.2) 0px -1px 1px inset)
-  +border-radius(0px 0px 8px 8px)
-  background: rgba(black,.8)
   position: absolute
   top: 0
-  margin-left: 440px
+  margin-left: 360px
   min-width: 300px
   .inner
     padding: 20px
-    margin-top: 80px
+    margin-top: 127px
   h2
     color: #8599b7
-    text-align: center
   dl
-    text-align: center
     dt
-      font-family: "Anonymous Pro", Consolas, "Lucida Terminal", Monaco, monospace
+      font-family: Consolas, "Anonymous Pro", "Lucida Terminal", Monaco, monospace
       font-size: 16px
       span
         font-weight: bold
     dd
-      color: #555
+      color: #aaa
       font-size: 12px
       margin-bottom: 12px
-  &:hover 
-    background: rgba(black,.7)
-    +box-shadow(rgba(#eee,.4) 0px -1px 1px inset)
   .js &
     top: -30px
   &.revealed
