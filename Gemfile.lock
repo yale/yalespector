@@ -194,7 +194,6 @@ GEM
       rake (>= 0.8.7)
       thor (~> 0.14.4)
     rake (0.8.7)
-    rb-fsevent (0.4.0)
     rdiscount (1.6.8)
     rest-client (1.6.1)
       mime-types (>= 1.16)
@@ -267,7 +266,6 @@ DEPENDENCIES
   paper_trail
   paperclip
   rails
-  rb-fsevent
   rdiscount
   rspec
   rspec-rails
